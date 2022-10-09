@@ -1,0 +1,11 @@
+etc/xdg/khtmlrc
+usr/share/kf5/khtml/
+usr/share/kf5/kjava/
+usr/share/kservices5/khtml.desktop
+usr/share/kservices5/khtmladaptorpart.desktop
+usr/share/kservices5/khtmlimage.desktop
+usr/share/kservices5/kjavaappletviewer.desktop
+usr/share/kservices5/kmultipart.desktop
+usr/share/locale/*/*/khtml5.mo
+usr/share/qlogging-categories5/khtml.categories
+usr/share/qlogging-categories5/khtml.renamecategories

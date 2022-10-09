@@ -1,0 +1,5 @@
+usr/include/KF5/KHtml/
+usr/include/KF5/khtml_version.h
+usr/lib/*/cmake/KF5KHtml/
+usr/lib/*/libKF5KHtml.so
+usr/lib/*/qt5/mkspecs/modules/qt_KHtml.pri
