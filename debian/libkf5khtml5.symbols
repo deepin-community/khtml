@@ -1844,6 +1844,10 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZN3KJS14ScopeChainLink5derefEv@Base 5.70.0
  (optional=gccinternal)_ZN3KJS4List6appendEPNS_7JSValueE@Base 5.37.0
  (optional=external|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
+ _ZN3KJS7JSValue4typeEPKS0_@Base 5.89.0
+ _ZN3KJS7JSValue7toInt32EPKS0_PNS_9ExecStateE@Base 5.89.0
+ _ZN3KJS7JSValue8toStringEPKS0_PNS_9ExecStateE@Base 5.89.0
+ _ZN3KJS7JSValue9toBooleanEPKS0_PNS_9ExecStateE@Base 5.89.0
  (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD0Ev@Base 5.24.0
  (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD1Ev@Base 5.24.0
  (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD2Ev@Base 5.24.0
@@ -2883,10 +2887,6 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZNK3DOM9MediaList9mediaTextEv@Base 4.96.0
  _ZNK3KJS10Identifier7qstringEv@Base 4.96.0
  _ZNK3KJS10Identifier9domStringEv@Base 4.96.0
- _ZNK3KJS7JSValue4typeEv@Base 4.96.0
- _ZNK3KJS7JSValue7toInt32EPNS_9ExecStateE@Base 4.96.0
- _ZNK3KJS7JSValue8toStringEPNS_9ExecStateE@Base 4.96.0
- _ZNK3KJS7JSValue9toBooleanEPNS_9ExecStateE@Base 4.96.0
  _ZNK3KJS7UString7qstringEv@Base 4.96.0
  _ZNK3KJS7UString9domStringEv@Base 4.96.0
  _ZNK3KJS8JSObject11toPrimitiveEPNS_9ExecStateENS_6JSTypeE@Base 4.96.0

@@ -1,12 +1,12 @@
 # Translation of khtml5.po to Catalan (Valencian)
-# Copyright (C) 1998-2019 This_file_is_part_of_KDE
+# Copyright (C) 1998-2021 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Sebastià Pla i Sanz <sps@sastia.com>, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007.
-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2003, 2006, 2011, 2012, 2013, 2014, 2015.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2003, 2006, 2011, 2012, 2013, 2014, 2015, 2019, 2020.
 # Albert Astals Cid <aacid@kde.org>, 2004, 2005, 2007.
-# Josep Ma. Ferrer <txemaq@gmail.com>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019.
+# Josep M. Ferrer <txemaq@gmail.com>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021.
 # Robert Millan <rmh@aybabtu.com>, 2009.
 # Orestes Mas <orestes@tsc.upc.edu>, 2010.
 msgid ""
@@ -14,21 +14,21 @@ msgstr ""
 "Project-Id-Version: khtml\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-10-24 02:12+0200\n"
-"PO-Revision-Date: 2019-01-10 21:07+0100\n"
-"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"PO-Revision-Date: 2021-10-31 20:15+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 20.12.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Sebastià Pla,Antoni Bella,Albert Astals,Josep Ma. Ferrer"
+msgstr "Sebastià Pla,Antoni Bella,Albert Astals,Josep M. Ferrer"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -228,7 +228,7 @@ msgstr "Error d'anàlisi a %1 línia %2"
 #: ecma/kjs_html.cpp:2233 ecma/kjs_window.cpp:1944
 #, kde-format
 msgid "Confirmation: JavaScript Popup"
-msgstr "Confirmació: Finestra emergent del JavaScript"
+msgstr "Confirmació: Finestra emergent de JavaScript"
 
 #: ecma/kjs_html.cpp:2235
 #, kde-format
@@ -409,8 +409,7 @@ msgstr "No baixar"
 #: html/htmlparser.cpp:1980
 #, kde-format
 msgid "This is a searchable index. Enter search keywords: "
-msgstr ""
-"Aquest és un índex que permet cercar. Introduïu les paraules de cerca: "
+msgstr "Aquest és un índex que permet cercar. Introduïu les paraules clau: "
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #: html/keygenwizard.ui:35
@@ -432,7 +431,7 @@ msgid ""
 "very secure password as this will be used to encrypt your private key."
 msgstr ""
 "Ara heu de proporcionar una contrasenya per a la petició de certificat. Per "
-"favor, trieu una contrasenya molt segura, ja que s'usarà per encriptar la "
+"favor, trieu una contrasenya molt segura, ja que s'usarà per a encriptar la "
 "vostra clau privada."
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
@@ -650,7 +649,7 @@ msgstr "&Autoritza-ho tot"
 #: java/kjavaappletviewer.cpp:55
 #, kde-format
 msgid "KDE Java Applet Plugin"
-msgstr "Connector de miniaplicació Java pel KDE"
+msgstr "Connector de miniaplicació Java del KDE"
 
 #: java/kjavaappletviewer.cpp:137
 #, kde-format
@@ -745,7 +744,7 @@ msgstr "Obri en aques&ta finestra"
 #: khtml_ext.cpp:478
 #, kde-format
 msgid "Open in &New Tab"
-msgstr "Obri en una &pestanya nova"
+msgstr "Obri en una pestanya &nova"
 
 #: khtml_ext.cpp:488
 #, kde-format
@@ -981,8 +980,8 @@ msgid ""
 "<qt>Find text<br /><br />Shows a dialog that allows you to find text on the "
 "displayed page.</qt>"
 msgstr ""
-"<qt>Cerca el text<br /><br />Mostra un diàleg que vos permet cercar text en "
-"la pàgina mostrada.</qt>"
+"<qt>Cerca el text<br /><br />Mostra un diàleg que permet trobar el text a la "
+"pàgina mostrada.</qt>"
 
 #: khtml_part.cpp:410
 #, kde-format
@@ -990,7 +989,7 @@ msgid ""
 "<qt>Find next<br /><br />Find the next occurrence of the text that you have "
 "found using the <b>Find Text</b> function.</qt>"
 msgstr ""
-"<qt>Cerca el següent<br /><br />Cerca l'ocurrència següent del text que heu "
+"<qt>Cerca la següent<br /><br />Troba l'ocurrència següent del text que heu "
 "trobat usant la funció <b>Cerca el text</b>.</qt>"
 
 #: khtml_part.cpp:416
@@ -999,7 +998,7 @@ msgid ""
 "<qt>Find previous<br /><br />Find the previous occurrence of the text that "
 "you have found using the <b>Find Text</b> function.</qt>"
 msgstr ""
-"<qt>Cerca l'anterior<br /><br />Cerca l'ocurrència anterior del text que heu "
+"<qt>Cerca l'anterior<br /><br />Troba l'ocurrència anterior del text que heu "
 "trobat usant la funció <b>Cerca el text</b>.</qt>"
 
 #: khtml_part.cpp:421
@@ -1014,14 +1013,14 @@ msgid ""
 "cancels the effect of \"Find Links as You Type\", which sets the \"Find "
 "links only\" option."
 msgstr ""
-"Aquesta drecera mostra la barra de cerca, per a cercar text en la imatge "
-"mostrada. Cancel·la l'efecte de «Cerca enllaços en teclejar», que estableix "
-"l'opció «Cerca només els enllaços»."
+"Aquesta drecera mostra la barra de cerca, per a trobar el text en la imatge "
+"mostrada. Cancel·la l'efecte de «Cerca els enllaços en teclejar», el qual "
+"estableix l'opció «Cerca només els enllaços»."
 
 #: khtml_part.cpp:428
 #, kde-format
 msgid "Find Links as You Type"
-msgstr "Cerca enllaços en teclejar"
+msgstr "Cerca els enllaços en teclejar"
 
 #: khtml_part.cpp:434
 #, kde-format
@@ -1155,7 +1154,7 @@ msgstr "Detecció automàtica"
 #: khtml_part.cpp:3712 khtml_part.cpp:3776 khtml_part.cpp:3786
 #, kde-format
 msgid " (In new window)"
-msgstr " (A una finestra nova)"
+msgstr " (En una finestra nova)"
 
 #: khtml_part.cpp:3740
 #, kde-format
@@ -1331,7 +1330,7 @@ msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
-"<qt>El formulari s'enviarà a <br /><b>%1</b><br />al vostre sistema de "
+"<qt>El formulari s'enviarà a <br /><b>%1</b><br />en el vostre sistema de "
 "fitxers local.<br />Voleu enviar el formulari?</qt>"
 
 #: khtml_part.cpp:5017
@@ -1373,12 +1372,12 @@ msgstr "&Tanca la cartera"
 #: khtml_part.cpp:7479
 #, kde-format
 msgid "&Allow storing passwords for this site"
-msgstr "&Permet l'emmagatzematge de contrasenyes per aquest lloc"
+msgstr "&Permet l'emmagatzematge de contrasenyes per a aquest lloc"
 
 #: khtml_part.cpp:7484
 #, kde-format
 msgid "Remove password for form %1"
-msgstr "Elimina la contrasenya pel formulari %1"
+msgstr "Elimina la contrasenya per al formulari %1"
 
 #: khtml_part.cpp:7599
 #, kde-format
@@ -1424,7 +1423,7 @@ msgstr "Mostra la &notificació de la finestra emergent passiva blocada"
 #: khtml_part.cpp:7656
 #, kde-format
 msgid "&Configure JavaScript New Window Policies..."
-msgstr "&Configura les polítiques JavaScript per a les finestres noves..."
+msgstr "&Configura les polítiques de JavaScript de les finestres noves..."
 
 #: khtml_printsettings.cpp:30
 #, kde-format
@@ -1470,15 +1469,15 @@ msgid ""
 "grayscale, if you use a black+white printer). Printout will possibly happen "
 "more slowly and will probably use more toner or ink.</p> </qt>"
 msgstr ""
-"<qt><p><strong>«Mode d'impressió amigable»</strong></p><p>Si s'activa "
+"<qt><p><strong>«Mode d'impressió fàcil d'emprar»</strong></p><p>Si s'activa "
 "aquesta casella de selecció, la impressió del document HTML serà només en "
 "blanc i negre i tot el fons de color es passarà a blanc. La impressió serà "
 "més ràpida i usarà menys tinta o tòner.</p><p>Si es desactiva aquesta "
-"casella de selecció, la impressió del document HTML es farà amb els colors "
-"originals, tal com els veieu a l'aplicació. Això pot donar àrees de color a "
-"tota la pàgina (o d'escala de grisos, si useu una impressora de blanc i "
-"negre). La impressió possiblement serà més lenta i probablement usarà molt "
-"més tòner o tinta.</p> </qt>"
+"casella de selecció, la impressió del document HTML es farà amb la "
+"configuració de colors originals, tal com els veieu a l'aplicació. Això pot "
+"donar àrees de color a tota la pàgina (o d'escala de grisos, si useu una "
+"impressora de blanc i negre). La impressió possiblement serà més lenta i "
+"probablement usarà molt més tòner o tinta.</p> </qt>"
 
 #: khtml_printsettings.cpp:70
 #, kde-format
@@ -1488,7 +1487,7 @@ msgstr "Arranjament HTML"
 #: khtml_printsettings.cpp:72
 #, kde-format
 msgid "Printer friendly mode (black text, no background)"
-msgstr "Mode d'impressió amigable (text negre, sense fons)"
+msgstr "Mode d'impressió fàcil d'emprar (text negre, sense fons)"
 
 #: khtml_printsettings.cpp:75
 #, kde-format
@@ -1556,6 +1555,7 @@ msgstr "&Neteja"
 msgid "JavaScript Errors"
 msgstr "Errors de JavaScript"
 
+# skip-rule: kct-scripting
 #. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
 #: kjserrordlgbase.ui:18
 #, kde-format
@@ -1809,7 +1809,7 @@ msgstr "Voleu emmagatzemar aquesta contrasenya?"
 #: ui/passwordbar/storepassbar.cpp:61
 #, kde-format
 msgid "Do you want to store this password for %1?"
-msgstr "Voleu emmagatzemar aquesta contrasenya per %1?"
+msgstr "Voleu emmagatzemar aquesta contrasenya per a %1?"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_store)
 #: ui/passwordbar/storepassbar_base.ui:59
@@ -1821,7 +1821,7 @@ msgstr "&Emmagatzema"
 #: ui/passwordbar/storepassbar_base.ui:69
 #, kde-format
 msgid "Ne&ver store for this site"
-msgstr "&Mai l'emmagatzemes per aquest lloc"
+msgstr "&Mai l'emmagatzemes per a aquest lloc"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
 #: ui/passwordbar/storepassbar_base.ui:79

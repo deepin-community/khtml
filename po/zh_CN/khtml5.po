@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-10-24 02:12+0200\n"
-"PO-Revision-Date: 2021-08-30 11:43\n"
+"PO-Revision-Date: 2021-12-22 14:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -198,7 +198,7 @@ msgstr "值"
 #: ecma/debugger/scriptsdock.cpp:37
 #, kde-format
 msgid "Loaded Scripts"
-msgstr "已装入的脚本"
+msgstr "已加载的脚本"
 
 #: ecma/kjs_binding.cpp:195
 #, kde-format
@@ -207,8 +207,8 @@ msgid ""
 "other applications may become less responsive.\n"
 "Do you want to stop the script?"
 msgstr ""
-"此页面上的脚本导致 KHTML 冻结。如果继续运行的话，其它程序的响应程度会受到影"
-"响。\n"
+"此页面上的脚本导致 KHTML 失去响应。如果继续运行的话，其他程序的响应程度会受到"
+"影响。\n"
 "您是否想要中止脚本？"
 
 #: ecma/kjs_binding.cpp:195
@@ -584,7 +584,7 @@ msgstr "Applet “%1”已停止"
 #: java/kjavaappletserver.cpp:143
 #, kde-format
 msgid "Loading Applet"
-msgstr "正在装入 Applet"
+msgstr "正在加载小程序"
 
 #: java/kjavaappletserver.cpp:146
 #, kde-format
@@ -739,7 +739,7 @@ msgstr "在新标签中打开(&N)"
 #: khtml_ext.cpp:488
 #, kde-format
 msgid "Reload Frame"
-msgstr "重新装入框架"
+msgstr "重新加载框架"
 
 #: khtml_ext.cpp:493 khtml_part.cpp:446
 #, kde-format
@@ -1101,7 +1101,7 @@ msgstr "日期和时间：%1"
 #: khtml_part.cpp:1939
 #, kde-format
 msgid "Additional Information: %1"
-msgstr "其它信息：%1"
+msgstr "额外信息：%1"
 
 #: khtml_part.cpp:1941
 #, kde-format
@@ -1121,13 +1121,13 @@ msgstr "可能的解决方法："
 #: khtml_part.cpp:2402
 #, kde-format
 msgid "Page loaded."
-msgstr "页面已装入。"
+msgstr "页面已加载。"
 
 #: khtml_part.cpp:2404
 #, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
-msgstr[0] "已装入 %2 个图像中的 %1 个。"
+msgstr[0] "已加载 %2 个图像中的 %1 个。"
 
 #: khtml_part.cpp:2582
 #, kde-format
@@ -1531,7 +1531,7 @@ msgid ""
 "case which illustrates the problem will be appreciated."
 msgstr ""
 "这个对话框向您提供网页中出现的脚本错误通知和详细信息。很多情况下它是由于网页"
-"设计者的网站设计错误产生的。有其它情况是由于 Konqueror 中的程序设计错误。如果"
+"设计者的网站设计错误产生的。有其他情况是由于 Konqueror 中的程序设计错误。如果"
 "您怀疑是前一种错误，请和相关网站的网页设计者联系。反之，如果您怀疑是 "
 "Konqueror 的错误，请在 https://bugs.kde.org/ 提交错误报告。如果您能提供表现出"
 "这个问题的测试实例我们将非常感激。"
