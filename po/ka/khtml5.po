@@ -1,59 +1,57 @@
-# KDE3 - Georgian translation of kdelibs4.po
-# Gia Shervashidze <giasher@telenet.ge>, 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the khtml package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kdelibs4\n"
+"Project-Id-Version: khtml\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
-"PO-Revision-Date: 2009-12-17 02:11+0400\n"
-"Last-Translator: George Machitidze <giomac@gmail.com>\n"
-"Language-Team: Georgian <http://www.gia.ge>\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
+"PO-Revision-Date: 2022-12-26 01:46+0100\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "გია შერვაშიძე"
+msgstr "Temuri Doghonadze"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "giasher@telenet.ge"
+msgstr "Temuri.doghonadze@gmail.com"
 
 #: ecma/debugger/callstackdock.cpp:35
-#, fuzzy, kde-format
-#| msgid "Call stack"
+#, kde-format
 msgid "Call Stack"
-msgstr "მჭიდის გამოძახება"
+msgstr "გამოძახების სტეკი"
 
 #: ecma/debugger/callstackdock.cpp:39
-#, fuzzy, kde-format
+#, kde-format
 msgid "Call"
-msgstr "ჩადგმა"
+msgstr "დარეკვა"
 
 #: ecma/debugger/callstackdock.cpp:39
-#, fuzzy, kde-format
-#| msgid "License:"
+#, kde-format
 msgid "Line"
-msgstr "ლიცენზია:"
+msgstr "ხაზი"
 
 #: ecma/debugger/consoledock.cpp:220
-#, fuzzy, kde-format
-#| msgid "Close"
+#, kde-format
 msgid "Console"
-msgstr "დახურვა"
+msgstr "კონსოლი"
 
 #: ecma/debugger/consoledock.cpp:243
-#, fuzzy, kde-format
-#| msgid "Other"
+#, kde-format
 msgid "Enter"
-msgstr "სხვა"
+msgstr "Enter"
 
 #: ecma/debugger/debugdocument.cpp:203
 #, kde-format
@@ -61,11 +59,13 @@ msgid ""
 "Unable to find the Kate editor component;\n"
 "please check your KDE installation."
 msgstr ""
+"Kate-ის რედაქტორის კომპონენტი ვერ ვიპოვე:\n"
+"შეამოწმეთ KDE-ს ფაილები."
 
 #: ecma/debugger/debugdocument.cpp:269
 #, kde-format
 msgid "Breakpoint"
-msgstr ""
+msgstr "გამართვის წერტილი"
 
 #: ecma/debugger/debugwindow.cpp:96
 #, kde-format
@@ -78,10 +78,9 @@ msgid "&Break at Next Statement"
 msgstr "&წყვეტა შემდეგ გამოსახულებაზე"
 
 #: ecma/debugger/debugwindow.cpp:174
-#, fuzzy, kde-format
-#| msgid "&Break at Next Statement"
+#, kde-format
 msgid "Break at Next"
-msgstr "&წყვეტა შემდეგ გამოსახულებაზე"
+msgstr "შემდეგზე წყვეტა"
 
 #: ecma/debugger/debugwindow.cpp:179
 #, kde-format
@@ -89,51 +88,49 @@ msgid "Continue"
 msgstr "გაგრძელება"
 
 #: ecma/debugger/debugwindow.cpp:185
-#, fuzzy, kde-format
+#, kde-format
 msgid "Step Over"
-msgstr "ბიჯი"
+msgstr "გადაბიჯება"
 
 #: ecma/debugger/debugwindow.cpp:191
-#, fuzzy, kde-format
+#, kde-format
 msgid "Step Into"
-msgstr "ბიჯი"
+msgstr "შებიჯება"
 
 #: ecma/debugger/debugwindow.cpp:198
-#, fuzzy, kde-format
+#, kde-format
 msgid "Step Out"
-msgstr "ბიჯი"
+msgstr "გამობიჯება"
 
 #: ecma/debugger/debugwindow.cpp:204
 #, kde-format
 msgid "Reindent Sources"
-msgstr ""
+msgstr "წყაროების თავიდან სწორება"
 
 #: ecma/debugger/debugwindow.cpp:209
-#, fuzzy, kde-format
-#| msgid "Action"
+#, kde-format
 msgid "Report Exceptions"
-msgstr "ქმედება"
+msgstr "გამონაკლისების ანგარიში"
 
 #: ecma/debugger/debugwindow.cpp:217
 #, kde-format
 msgid "&Debug"
-msgstr ""
+msgstr "&გამართვა"
 
 #: ecma/debugger/debugwindow.cpp:225
 #, kde-format
 msgid "&Settings"
-msgstr "&პარამეტრები"
+msgstr "გამართვა"
 
 #: ecma/debugger/debugwindow.cpp:251
-#, fuzzy, kde-format
-#| msgid "Close Document"
+#, kde-format
 msgid "Close source"
-msgstr "დოკუმენტის დახურვა"
+msgstr "წყაროს დახურვა"
 
 #: ecma/debugger/debugwindow.cpp:257
-#, fuzzy, kde-format
+#, kde-format
 msgid "Ready"
-msgstr "განახლება"
+msgstr "მზადაა"
 
 #: ecma/debugger/debugwindow.cpp:582
 #, kde-format
@@ -154,11 +151,13 @@ msgid ""
 "Do not know where to evaluate the expression. Please pause a script or open "
 "a source file."
 msgstr ""
+"არ ვიცი, გამოსახულება როგორ შევაფასო. შეაჩერეთ სკრიპტი ან გახსენით წყაროს "
+"ფაილი."
 
 #: ecma/debugger/debugwindow.cpp:809
 #, kde-format
 msgid "Evaluation threw an exception %1"
-msgstr ""
+msgstr "შეფასებამ გამოაგდო გამონაკლისი %1"
 
 #: ecma/debugger/errordlg.cpp:35
 #, kde-format
@@ -173,40 +172,34 @@ msgstr "&აღარ მიჩვენო ეს შეტყობინე�
 #: ecma/debugger/localvariabledock.cpp:43
 #, kde-format
 msgid "Local Variables"
-msgstr ""
+msgstr "ლოკალური ცვლადები"
 
 #: ecma/debugger/localvariabledock.cpp:51
-#, fuzzy, kde-format
-#| msgid "Reference error"
+#, kde-format
 msgid "Reference"
-msgstr "დამოწმების შეცდომა"
+msgstr "ბმა"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "მნიშვნელობა"
 
 #: ecma/debugger/scriptsdock.cpp:37
-#, fuzzy, kde-format
+#, kde-format
 msgid "Loaded Scripts"
-msgstr "ხელ&ნაწერი"
+msgstr "ჩატვირთული სკრიპტები"
 
 #: ecma/kjs_binding.cpp:195
-#, fuzzy, kde-format
-#| msgid ""
-#| "A script on this page is causing KHTML to freeze. If it continues to run, "
-#| "other applications may become less responsive.\n"
-#| "Do you want to abort the script?"
+#, kde-format
 msgid ""
 "A script on this page is causing KHTML to freeze. If it continues to run, "
 "other applications may become less responsive.\n"
 "Do you want to stop the script?"
 msgstr ""
-"ამ გვედის სკრიპტმა KHTML კოდის შეჩერება გამოიწვია. თუ იგი მუშაობას "
-"გააგრძელებს სხვა პროგრამები შენელდება.\n"
-"შევწყვიტო სკრიპტი?"
+"ამ გვერდზე არსებული სკრიპტი KHTML-ს ჭედავს. თუ მის შესრულებას გააგრძელებთ, "
+"სხვა აპლიკაციები შეიძლება ნაკლებად რეაგირებადი გახდნენ.\n"
+"გნებავთ სკრიპტის გაჩერება?"
 
 #: ecma/kjs_binding.cpp:195
 #, kde-format
@@ -214,9 +207,9 @@ msgid "JavaScript"
 msgstr "JavaScript"
 
 #: ecma/kjs_binding.cpp:195
-#, fuzzy, kde-format
+#, kde-format
 msgid "&Stop Script"
-msgstr "ხელ&ნაწერი"
+msgstr "&სკრიპტის გაჩერება"
 
 #: ecma/kjs_binding.cpp:445
 #, kde-format
@@ -253,7 +246,7 @@ msgstr ""
 #: ecma/kjs_html.cpp:2240 ecma/kjs_window.cpp:1952
 #, kde-format
 msgid "Allow"
-msgstr "ნებართვა"
+msgstr "დაშვება"
 
 #: ecma/kjs_html.cpp:2240 ecma/kjs_window.cpp:1952
 #, kde-format
@@ -310,7 +303,7 @@ msgstr "JavaScript ცდილობს სანიშნის ჩამა�
 #: ecma/kjs_window.cpp:3249
 #, kde-format
 msgid "Insert"
-msgstr "ჩამატება"
+msgstr "ჩასმა"
 
 #: ecma/kjs_window.cpp:3249
 #, kde-format
@@ -337,14 +330,14 @@ msgid "&Submit Anyway"
 msgstr "&გაგზავნა"
 
 #: html/html_formimpl.cpp:434
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "You are about to transfer the following files from your local computer to "
 "the Internet.\n"
 "Do you really want to continue?"
 msgstr ""
-"თქვენ ცდილობთ ლოკალური ფაილების ინტერნეტით გადაგზავნას.\n"
-"ნამდვილად გსურთ გაგრძელება?"
+"აპირებთ შემდეგი ფაილების კომპიუტერიდან ინტერნეტში ატვირთვას.\n"
+"ნამდვილად გსურთ, გააგრძელოთ?"
 
 #: html/html_formimpl.cpp:438
 #, kde-format
@@ -352,28 +345,27 @@ msgid "Send Confirmation"
 msgstr "თანხმობის გაგზავნა"
 
 #: html/html_formimpl.cpp:438
-#, fuzzy, kde-format
-#| msgid "&Send Files"
+#, kde-format
 msgid "&Send File"
 msgid_plural "&Send Files"
-msgstr[0] "ფაილების &გაგზავნა"
+msgstr[0] "&ფაილის გაგზავნა"
+msgstr[1] "&ფაილების გაგზავნა"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "გაგზავნა"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
-msgstr "აღდგენა"
+msgstr "თავიდან ჩართვა"
 
 #: html/html_formimpl.cpp:2824
-#, fuzzy, kde-format
-#| msgid "General"
+#, kde-format
 msgid "Key Generator"
-msgstr "ზოგადი"
+msgstr "გასაღებების გენერატორი"
 
 #: html/html_objectimpl.cpp:632
 #, kde-format
@@ -392,7 +384,7 @@ msgstr "მცდარი მოდული"
 #: html/html_objectimpl.cpp:633
 #, kde-format
 msgid "Download"
-msgstr "ჩამოტვირთვა"
+msgstr "გადმოწერა"
 
 #: html/html_objectimpl.cpp:633
 #, kde-format
@@ -412,6 +404,9 @@ msgid ""
 "This wizard is intended to guide you through the procedure. You may cancel "
 "at any time, and this will abort the transaction."
 msgstr ""
+"თქვენ მიუთითეთ, რომ გნებავთ მიიღოთ ან შეიძინოთ დაცული სერტიფიკატი. ეს ოსტატი "
+"ამ პროცედურას გაგატარებთ. მისი გაუქმება ნებისმიერ დროს შეგიძლიათ და ეს "
+"ტრანზაქციას გააუქმებს."
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4)
 #: html/keygenwizard2.ui:35
@@ -420,44 +415,41 @@ msgid ""
 "You must now provide a password for the certificate request. Please choose a "
 "very secure password as this will be used to encrypt your private key."
 msgstr ""
+"სერტიფიკატის მოთხოვნისთვის პაროლის შეყვანა აუცილებელია. აირჩიეთ ძალიან "
+"დაცული პაროლი, რადგან ის თქვენი პირადი გასაღების დასაშიფრად იქნება "
+"გამოყენებული."
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
 #: html/keygenwizard2.ui:48
-#, fuzzy, kde-format
-#| msgid "&Keep password"
+#, kde-format
 msgid "&Repeat password:"
-msgstr "პაროლის &შენახვა"
+msgstr "&გაიმეორეთ პაროლი:"
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5)
 #: html/keygenwizard2.ui:58
-#, fuzzy, kde-format
-#| msgid "&Keep password"
+#, kde-format
 msgid "&Choose password:"
-msgstr "პაროლის &შენახვა"
+msgstr "&აირჩიეთ პაროლი:"
 
 #: html/ksslkeygen.cpp:82
-#, fuzzy, kde-format
-#| msgid "KDE Certificate Part"
+#, kde-format
 msgid "KDE Certificate Request"
-msgstr "KDE სერთიფიკატების მოდული"
+msgstr "KDE -ის სერტიფიკატის მოთხოვნა"
 
 #: html/ksslkeygen.cpp:89
-#, fuzzy, kde-format
-#| msgid "KDE Certificate Part"
+#, kde-format
 msgid "KDE Certificate Request - Password"
-msgstr "KDE სერთიფიკატების მოდული"
+msgstr "KDE -ის სერტიფიკატის მოთხოვნა - პაროლი"
 
 #: html/ksslkeygen.cpp:126
-#, fuzzy, kde-format
-#| msgid "Untrusted"
+#, kde-format
 msgid "Unsupported key size."
-msgstr "შეუმოწმებელი"
+msgstr "გასაღების მხარდაუჭერელი ზომა."
 
 #: html/ksslkeygen.cpp:126
-#, fuzzy, kde-format
-#| msgid "Information"
+#, kde-format
 msgid "KDE SSL Information"
-msgstr "ინფორმაცია"
+msgstr "KDE SSL ინფორმაცია"
 
 #: html/ksslkeygen.cpp:132 khtml_part.cpp:5017
 #, kde-format
@@ -467,50 +459,47 @@ msgstr "KDE"
 #: html/ksslkeygen.cpp:133
 #, kde-format
 msgid "Please wait while the encryption keys are generated..."
-msgstr ""
+msgstr "მოითმინეთ, მიმდინარეობს დაშიფვრის გასაღებების გენერაცია..."
 
 #: html/ksslkeygen.cpp:148
-#, fuzzy, kde-format
-#| msgid "Do you want to restart search from the end?"
+#, kde-format
 msgid "Do you wish to store the passphrase in your wallet file?"
-msgstr "გავაგრძელო ძიება ბოლოდან?"
+msgstr "გნებავთ საკვანძო ფრაზის თქვენი საფულის ფაილში დამახსოვრება?"
 
 #: html/ksslkeygen.cpp:148
-#, fuzzy, kde-format
-#| msgid "Store"
+#, kde-format
 msgid "Store"
-msgstr "შენახვა"
+msgstr "მაღაზია"
 
 #: html/ksslkeygen.cpp:148
-#, fuzzy, kde-format
-#| msgid "Do &Not Store"
+#, kde-format
 msgid "Do Not Store"
 msgstr "არ შენახვა"
 
 #: html/ksslkeygen.cpp:257
 #, kde-format
 msgid "2048 (High Grade)"
-msgstr ""
+msgstr "2048 (მაღალი ხარისხი)"
 
 #: html/ksslkeygen.cpp:258
 #, kde-format
 msgid "1024 (Medium Grade)"
-msgstr ""
+msgstr "1024 (საშუალო ხარისხი)"
 
 #: html/ksslkeygen.cpp:259
 #, kde-format
 msgid "768  (Low Grade)"
-msgstr ""
+msgstr "768  (დაბალი ხარისხი)"
 
 #: html/ksslkeygen.cpp:260
 #, kde-format
 msgid "512  (Low Grade)"
-msgstr ""
+msgstr "512  (დაბალი ხარისხი)"
 
 #: html/ksslkeygen.cpp:262
 #, kde-format
 msgid "No SSL support."
-msgstr ""
+msgstr "SSL-ის მხარდაჭერის გარეშე."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
 #: htmlpageinfo.ui:22
@@ -520,8 +509,7 @@ msgstr "ინფორმაცია დოკუმეტზე"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #: htmlpageinfo.ui:34
-#, fuzzy, kde-format
-#| msgid "General"
+#, kde-format
 msgctxt "@title:group Document information"
 msgid "General"
 msgstr "ზოგადი"
@@ -530,7 +518,7 @@ msgstr "ზოგადი"
 #: htmlpageinfo.ui:60
 #, kde-format
 msgid "URL:"
-msgstr "მისამართი:"
+msgstr "URL:"
 
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: htmlpageinfo.ui:112
@@ -542,7 +530,7 @@ msgstr "სათაური:"
 #: htmlpageinfo.ui:128
 #, kde-format
 msgid "Last modified:"
-msgstr "ბოლო ცვლილება:"
+msgstr "შეცვლილი თარიღი:"
 
 #. i18n: ectx: property (text), widget (QLabel, _eLabel)
 #: htmlpageinfo.ui:144
@@ -554,7 +542,7 @@ msgstr "დოკუმენტის კოდირება:"
 #: htmlpageinfo.ui:167
 #, kde-format
 msgid "Rendering mode:"
-msgstr ""
+msgstr "რენდერის რეჟიმი:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: htmlpageinfo.ui:186
@@ -566,120 +554,13 @@ msgstr "HTTP თავსართები"
 #: htmlpageinfo.ui:214
 #, kde-format
 msgid "Property"
-msgstr "პარამეტრი"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "აპლეტის ინიციალიზება - \"%1\"..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "აპლეტის ინიციალიზება - \"%1\"..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "\"%1\" აპლეტი დაწყებულია"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "\"%1\" აპლეტი შეჩერებულია"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "აპლეტის ჩატვირთვა"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "შეცდომა: java პროგრამა ვერ მოიძებნა"
-
-#: java/kjavaappletserver.cpp:673
-#, fuzzy, kde-format
-#| msgid "Signed by (validation: "
-msgid "Signed by (validation: %1)"
-msgstr "ხელმოწერა (მართებულობა: "
-
-#: java/kjavaappletserver.cpp:675
-#, fuzzy, kde-format
-#| msgid "Certificate (validation: "
-msgid "Certificate (validation: %1)"
-msgstr "სერთიფიკატი (მართებულობა: "
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "უსაფრთხოების გაფრთხილება"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "დავუშვა Java აპლეტის გამოყენება სერთიფიკატ(ებ)ით:"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "შემდეგი უფლება/ები"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "&არა"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "ყველას &უარყოფა"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "&დიახ"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "ყველას &დაშვება"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "KDE გარემოს Java აპლეტის მოდული"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "აპლეტის პარამეტრები"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "პარამეტრი"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "კლასი"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "ძირითადი URL"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "არქივები"
+msgstr "თვისება"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
 #, kde-format
 msgid "&Edit"
-msgstr "&რედაქტირება"
+msgstr "&ჩასწორება"
 
 #. i18n: ectx: Menu (file)
 #: khtml_browser.rc:4
@@ -691,14 +572,13 @@ msgstr "&ფაილი"
 #: khtml_browser.rc:18
 #, kde-format
 msgid "&View"
-msgstr "&ჩვენება"
+msgstr "&ნახვა"
 
 #. i18n: ectx: ToolBar (htmlToolBar)
 #: khtml_browser.rc:34
-#, fuzzy, kde-format
-#| msgid "Main Toolbar"
+#, kde-format
 msgid "HTML Toolbar"
-msgstr "ხელსაწყოების ძირითადი პულტი"
+msgstr "HTML -ის პანელი"
 
 #: khtml_ext.cpp:413
 #, kde-format
@@ -711,10 +591,9 @@ msgid "Open '%1'"
 msgstr "გახსნა - '%1'"
 
 #: khtml_ext.cpp:444
-#, fuzzy, kde-format
-#| msgid "Copy Email Address"
+#, kde-format
 msgid "&Copy Email Address"
-msgstr "ელფოსტის მისამართის კოპირება"
+msgstr "ელფოსტის მისამართის &კოპირება"
 
 #: khtml_ext.cpp:449
 #, kde-format
@@ -722,17 +601,15 @@ msgid "&Save Link As..."
 msgstr "ბმის &შენახვა როგორც..."
 
 #: khtml_ext.cpp:454
-#, fuzzy, kde-format
-#| msgid "Copy &Link Address"
+#, kde-format
 msgid "&Copy Link Address"
-msgstr "ბმის &კოპირება როგორც"
+msgstr "&ბმულის მისამართის კოპირება"
 
 #: khtml_ext.cpp:466
-#, fuzzy, kde-format
-#| msgid "Frame"
+#, kde-format
 msgctxt "@title:menu HTML frame/iframe"
 msgid "Frame"
-msgstr "ბლოკი"
+msgstr "კადრი"
 
 #: khtml_ext.cpp:467
 #, kde-format
@@ -747,7 +624,7 @@ msgstr "გახსნა &ამ ფანჯარაში"
 #: khtml_ext.cpp:478
 #, kde-format
 msgid "Open in &New Tab"
-msgstr "გახსნა ახალ &დაფაზე"
+msgstr "&ახალ ჩანართში გახსნა"
 
 #: khtml_ext.cpp:488
 #, kde-format
@@ -820,14 +697,14 @@ msgid "Stop Animations"
 msgstr "ანიმაციის შეჩერება"
 
 #: khtml_ext.cpp:637
-#, fuzzy, kde-format
+#, kde-format
 msgid "Search for '%1' with %2"
-msgstr "ძიება '%1' - %2"
+msgstr "%1-ის %2-ით მოძებნა"
 
 #: khtml_ext.cpp:647
-#, fuzzy, kde-format
+#, kde-format
 msgid "Search for '%1' with"
-msgstr "ძიება - '%1'  -"
+msgstr "'%1'-ის მოძებნა მოხდება"
 
 #: khtml_ext.cpp:693
 #, kde-format
@@ -847,7 +724,7 @@ msgstr "მისამართის ფილტრის დამატე�
 #: khtml_ext.cpp:727 khtml_ext.cpp:739
 #, kde-format
 msgid "Enter the URL:"
-msgstr ""
+msgstr "შეიყვანეთ URL:"
 
 #: khtml_ext.cpp:875
 #, kde-format
@@ -858,23 +735,23 @@ msgstr "ფაილი \"%1\" სახელით უკვე არსე�
 #: khtml_ext.cpp:875
 #, kde-format
 msgid "Overwrite File?"
-msgstr "ჩავანაცვლო ფაილი?"
+msgstr "გადავაწერო ფაილს?"
 
 #: khtml_ext.cpp:927
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
-msgstr "ჩამოტვირთვის პროგრამა (%1) თქვენს გეზზე $PATH ვერ მოიძებნა."
+msgstr "ჩამოტვირთვის პროგრამა (%1) თქვენს გეზზე $PATH ვერ მოიძებნა "
 
 #: khtml_ext.cpp:928
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Try to reinstall it  \n"
 "\n"
 "The integration with Konqueror will be disabled."
 msgstr ""
-"სცადეთ ხელახლა ჩადგმა.\n"
+"სცადეთ, თავიდან დააყენოთ   \n"
 "\n"
-"ინტეგრაცია Konqueror-თან ამოირთვება!"
+"Konqueror-ში ჩადგმის ფუნქცია გაითიშება."
 
 #: khtml_ext.cpp:1007
 #, no-c-format, kde-format
@@ -927,10 +804,9 @@ msgid "Print DOM Tree to STDOUT"
 msgstr "DOM განტოტვის ბეჭდვა STDOUT-ზე"
 
 #: khtml_part.cpp:322
-#, fuzzy, kde-format
-#| msgid "Print DOM Tree to STDOUT"
+#, kde-format
 msgid "Print frame tree to STDOUT"
-msgstr "DOM განტოტვის ბეჭდვა STDOUT-ზე"
+msgstr "კადრების ხის STDOUT-ზე გამოტანა"
 
 #: khtml_part.cpp:326
 #, kde-format
@@ -940,7 +816,7 @@ msgstr "ნახატების ანიმაციის შეჩერ�
 #: khtml_part.cpp:330
 #, kde-format
 msgid "Set &Encoding"
-msgstr "&კოდირება..."
+msgstr "&კოდირების დაყენება"
 
 #: khtml_part.cpp:376
 #, kde-format
@@ -953,16 +829,14 @@ msgid "Enlarge Font"
 msgstr "შრიფტის გაზრდა"
 
 #: khtml_part.cpp:384
-#, fuzzy, kde-format
-#| msgid ""
-#| "Enlarge Font<p>Make the font in this window bigger. Click and hold down "
-#| "the mouse button for a menu with all available font sizes."
+#, kde-format
 msgid ""
 "<qt>Enlarge Font<br /><br />Make the font in this window bigger. Click and "
 "hold down the mouse button for a menu with all available font sizes.</qt>"
 msgstr ""
-"შრიფტის გაზრდა<p>ამ ფანჯრის შრიფტის გაზრდა. დაწკაპეთ და გააჭერეთ თაგუნას "
-"ღილაკი შრიფტის შესაძლო ზომების მენიუს გამოსაძახებლად."
+"<qt>ფონტის გადიდება<br /><br />ამ ფანჯრის ფონტების გადიდება. ფონტის "
+"ხელმისაწვდომის ზომების მენიუს სანახავად დააჭირეთ და გეჭიროთ თაგუნას ღილაკზე."
+"</qt>"
 
 #: khtml_part.cpp:388
 #, kde-format
@@ -970,50 +844,41 @@ msgid "Shrink Font"
 msgstr "შრიფტის შემცირება"
 
 #: khtml_part.cpp:391
-#, fuzzy, kde-format
-#| msgid ""
-#| "Shrink Font<p>Make the font in this window smaller. Click and hold down "
-#| "the mouse button for a menu with all available font sizes."
+#, kde-format
 msgid ""
 "<qt>Shrink Font<br /><br />Make the font in this window smaller. Click and "
 "hold down the mouse button for a menu with all available font sizes.</qt>"
 msgstr ""
-"შრიფტის შემცირება<p>ამ ფანჯრის შრიფტის შემცირება. დაწკაპეთ და გააჭერეთ "
-"თაგუნას ღილაკი შრიფტის შესაძლო ზომების მენიუს გამოსაძახებლად."
+"<qt>ფონტის დაპატარავება<br /><br />ამ ფანჯრის ფონტების დაპატარავება. ფონტის "
+"ხელმისაწვდომის ზომების მენიუს სანახავად დააჭირეთ და გეჭიროთ თაგუნას ღილაკზე."
+"</qt>"
 
 #: khtml_part.cpp:406
-#, fuzzy, kde-format
-#| msgid ""
-#| "Find text<p>Shows a dialog that allows you to find text on the displayed "
-#| "page."
+#, kde-format
 msgid ""
 "<qt>Find text<br /><br />Shows a dialog that allows you to find text on the "
 "displayed page.</qt>"
-msgstr "შემდეგის პოვნა<p><b>ნაჩვენებ გვერდზე ტექსტის პოვნის დიალოგი"
+msgstr ""
+"<qt>ტექსტის ძებნა<br /><br />გაჩვენებთ ფანჯარას, რომელითაც ნაჩვენებ გვერდზე "
+"ტექსტის მოძებნა შეგიძლიათ.</qt>"
 
 #: khtml_part.cpp:410
-#, fuzzy, kde-format
-#| msgid ""
-#| "Find next<p>Find the next occurrence of the text that you have found "
-#| "using the <b>Find Text</b> function"
+#, kde-format
 msgid ""
 "<qt>Find next<br /><br />Find the next occurrence of the text that you have "
 "found using the <b>Find Text</b> function.</qt>"
 msgstr ""
-"შემდეგის პოვნა<p><b>ტექსტის პოვნა</b> ფუნქციის საშუალებით უკვე ნაპოვნი "
-"საძიებო კონტქესტის შემდეგი დამზერის პოვნა"
+"<qt>შემდეგის მოძებნა<br /><br />ტექსტის, რომელიც <b>ტექსტის მოძებნის</b> "
+"ფუნქციით იპოვეთ, შემდეგი არსებობის მოძებნა.</qt>"
 
 #: khtml_part.cpp:416
-#, fuzzy, kde-format
-#| msgid ""
-#| "Find previous<p>Find the previous occurrence of the text that you have "
-#| "found using the <b>Find Text</b> function"
+#, kde-format
 msgid ""
 "<qt>Find previous<br /><br />Find the previous occurrence of the text that "
 "you have found using the <b>Find Text</b> function.</qt>"
 msgstr ""
-"წინას პოვნა<p>საძიებო ტექსტის წინა კონტექსტის პოვნა. ის, რომელსაც ეძიებდით "
-"ფუნქციით <b>ტექსტის პოვნა</b>"
+"<qt>წინა მოძებნა<br /><br />ტექსტის, რომელიც <b>ტექსტის მოძებნის</b> "
+"ფუნქციით იპოვეთ, წინა არსებობის მოძებნა.</qt>"
 
 #: khtml_part.cpp:421
 #, kde-format
@@ -1027,6 +892,9 @@ msgid ""
 "cancels the effect of \"Find Links as You Type\", which sets the \"Find "
 "links only\" option."
 msgstr ""
+"ეს მალსახმობი გაჩვენებთ ძებნის პანელს ნაჩვენებ გვერდზე ტექსტის მოსაძებნად. "
+"ის აუქმებს \"ბმულების აკრეფისას მოძებნის\" ეფექტებს, რომელიც \"მხოლოდ "
+"ბმულების მოძებნის\" პარამეტრს რთავს."
 
 #: khtml_part.cpp:428
 #, kde-format
@@ -1038,18 +906,17 @@ msgstr "ბმების ძებნა აკრეფისას"
 msgid ""
 "This shortcut shows the find bar, and sets the option \"Find links only\"."
 msgstr ""
+"მალსახმობი გაჩვენებთ ძებნის პანელს და აყენებს პარამეტრს \"მხოლოდ ბმულების "
+"მოძებნა\"."
 
 #: khtml_part.cpp:450
-#, fuzzy, kde-format
-#| msgid ""
-#| "Print Frame<p>Some pages have several frames. To print only a single "
-#| "frame, click on it and then use this function."
+#, kde-format
 msgid ""
 "<qt>Print Frame<br /><br />Some pages have several frames. To print only a "
 "single frame, click on it and then use this function.</qt>"
 msgstr ""
-"ბლოკის ბეჭდვა <p> ზოგიერთი გვერდი რამდენიმე ბლოკს შეიცავს.  მხოლოდ ერთი "
-"ბლოკის დასაბეჭდად დაწკაპეთ იგი და გამოიყენეთ ეს ფუნქცია."
+"<qt>ჩარჩოს დაბეჭდვა<br /><br />ზოგიერ გვერდს რამდენიმე ჩარჩო გააჩნია. ერთი "
+"ჩარჩოს დასაბეჭდად დააწკაპუნეთ მასზე და გამოიყენეთ ეს ფუნქცია.</qt>"
 
 #: khtml_part.cpp:465
 #, kde-format
@@ -1077,14 +944,12 @@ msgid "&Disable Error Reporting"
 msgstr "შეცდომების პატაკის &აკრძალვა"
 
 #: khtml_part.cpp:1357
-#, fuzzy, kde-format
-#| msgid "<b>Error</b>: %1: %2"
+#, kde-format
 msgid "<qt><b>Error</b>: %1: %2</qt>"
 msgstr "<b>შეცდომა</b>: %1: %2"
 
 #: khtml_part.cpp:1406
-#, fuzzy, kde-format
-#| msgid "<b>Error</b>: node %1: %2"
+#, kde-format
 msgid "<qt><b>Error</b>: node %1: %2</qt>"
 msgstr "<b>შეცდომა</b>: კვანძი %1: %2"
 
@@ -1094,8 +959,7 @@ msgid "Display Images on Page"
 msgstr "გვერდზე ნახატის ჩვენება"
 
 #: khtml_part.cpp:1912
-#, fuzzy, kde-format
-#| msgid "<b>Error</b>: %1: %2"
+#, kde-format
 msgid "Error: %1 - %2"
 msgstr "<b>შეცდომა</b>: %1: %2"
 
@@ -1120,10 +984,9 @@ msgid "URL: %1"
 msgstr "მისამართი: %1"
 
 #: khtml_part.cpp:1934
-#, fuzzy, kde-format
-#| msgid "Print %1"
+#, kde-format
 msgid "Protocol: %1"
-msgstr "ბეჭდვა - %1"
+msgstr "პროტოკოლი: %1"
 
 #: khtml_part.cpp:1937
 #, kde-format
@@ -1138,7 +1001,7 @@ msgstr "დამატებითი ინფორმაცია: %1"
 #: khtml_part.cpp:1941
 #, kde-format
 msgid "Description:"
-msgstr "აღწერილობა:"
+msgstr "აღწერა:"
 
 #: khtml_part.cpp:1947
 #, kde-format
@@ -1160,6 +1023,7 @@ msgstr "გვერდი ჩაიტვირთა."
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
 msgstr[0] "სულ %2, ჩაიტვირთა %1 ნახატი."
+msgstr[1] "სულ %2, ჩაიტვირთა %1 ნახატი."
 
 #: khtml_part.cpp:2582
 #, kde-format
@@ -1174,7 +1038,7 @@ msgstr " (ახალ ფანჯარაში)"
 #: khtml_part.cpp:3740
 #, kde-format
 msgid "Symbolic Link"
-msgstr "სიმბოლური ბმა"
+msgstr "სიმბმული"
 
 #: khtml_part.cpp:3742
 #, kde-format
@@ -1182,11 +1046,11 @@ msgid "%1 (Link)"
 msgstr "%1 (ბმა)"
 
 #: khtml_part.cpp:3758
-#, fuzzy, kde-format
-#| msgid "%2 (%1 bytes)"
+#, kde-format
 msgid "%2 (%1 byte)"
 msgid_plural "%2 (%1 bytes)"
 msgstr[0] "%2 (%1 ბაიტი)"
+msgstr[1] "%2 (%1 ბაიტი)"
 
 #: khtml_part.cpp:3761
 #, kde-format
@@ -1222,22 +1086,20 @@ msgstr " - ფარული ასლი: "
 #: khtml_run.cpp:106
 #, kde-format
 msgid "Save As"
-msgstr "შენახვა როგორც"
+msgstr "შენახვა, როგორც"
 
 #: khtml_part.cpp:3890
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>This untrusted page links to<BR><B>%1</B>.<BR>Do you want to follow "
-#| "the link?"
+#, kde-format
 msgid ""
 "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to follow "
 "the link?</qt>"
-msgstr "<qt>ეს შეუმოწმებელი გვერდი შეიცავს ბმას <BR><B>%1</B>.<BR>მივყვე ბმას?"
+msgstr ""
+"<qt>ეს შეუმოწმებელი გვერდი შეიცავს ბმას <BR><B>%1</B>.<BR>მივყვე ბმას?</qt>"
 
 #: khtml_part.cpp:3891
 #, kde-format
 msgid "Follow"
-msgstr "მიყოლა"
+msgstr "გამოწერა"
 
 #: khtml_part.cpp:3986
 #, kde-format
@@ -1250,23 +1112,22 @@ msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[პარამეტრები]</a>"
 
 #: khtml_part.cpp:4018
-#, fuzzy, kde-format
-#| msgid "Turkish"
+#, kde-format
 msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Quirks"
-msgstr "თურქული"
+msgstr "თავსებადობის რეჟიმი"
 
 #: khtml_part.cpp:4021
 #, kde-format
 msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Almost standards"
-msgstr ""
+msgstr "თითქმის სტანდარტული"
 
 #: khtml_part.cpp:4025
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Strict"
-msgstr "&დაწყება"
+msgstr "მკაცრი"
 
 #: khtml_part.cpp:4094
 #, kde-format
@@ -1276,7 +1137,7 @@ msgstr "ფონის ნახატის შენახვა როგო
 #: khtml_part.cpp:4187
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr ""
+msgstr "თქვენი პარტნიორის SSL სერტიფიკატის ჯაჭვი, როგორც ჩანს, დაზიანებულია."
 
 #: khtml_part.cpp:4208
 #, kde-format
@@ -1341,16 +1202,13 @@ msgid "&Send Email"
 msgstr "&ელფოსტის გაგზავნა"
 
 #: khtml_part.cpp:4961
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>The form will be submitted to <BR><B>%1</B><BR>on your local "
-#| "filesystem.<BR>Do you want to submit the form?"
+#, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
 "filesystem.<br />Do you want to submit the form?</qt>"
 msgstr ""
-"<qt>ფორმა გადაეცემა ლოკალური ფაილური სისტემის ვგზავნო ფორმა<BR><B>%1</"
-"B><BR>ფაილს.<BR>გ?"
+"<qt>ფორმა გადაცემული იქნება <br /><b>%1</b><br />ლოკალურ ფაილურ სისტემაზე."
+"<br />გნებავთ ფორმის გადაცემა?</qt>"
 
 #: khtml_part.cpp:5017
 #, kde-format
@@ -1372,10 +1230,14 @@ msgid "Security Warning"
 msgstr "უსაფრთხოების შეტყობინება"
 
 #: khtml_part.cpp:7046
-#, fuzzy, kde-format
-#| msgid "<qt>Access by untrusted page to<BR><B>%1</B><BR> denied."
+#, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
-msgstr "<qt>შეუმოწმებელი გვერდიდან <BR><B>%1</B><BR> წვდომა იკრძალება."
+msgstr "<qt>არასანდო გვერდებთან წვდომა <br /><b>%1</b><br /> აკრძალულია.</qt>"
+
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "უსაფრთხოების გაფრთხილება"
 
 #: khtml_part.cpp:7417
 #, kde-format
@@ -1391,12 +1253,12 @@ msgstr "ქისის &დახურვა"
 #: khtml_part.cpp:7479
 #, kde-format
 msgid "&Allow storing passwords for this site"
-msgstr ""
+msgstr "&ამ საიტისთვის პაროლის დამახსოვრების დაშვება"
 
 #: khtml_part.cpp:7484
 #, kde-format
 msgid "Remove password for form %1"
-msgstr ""
+msgstr "ფორმისთვის %1 პაროლის წაშლა"
 
 #: khtml_part.cpp:7599
 #, kde-format
@@ -1425,12 +1287,11 @@ msgstr ""
 "მისი ქცევა ან გახსნათ იგი."
 
 #: khtml_part.cpp:7652
-#, fuzzy, kde-format
-#| msgid "&Show Blocked Popup Window"
-#| msgid_plural "Show %1 Blocked Popup Windows"
+#, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
-msgstr[0] "დაბლოკილი %1 მოდრეიფე ფანჯრის &ჩვენება"
+msgstr[0] "დაბლოკილი მხტუნარა ფანჯრის ჩვენება"
+msgstr[1] "%1 დაბლოკილი მხტუნარა ფანჯრის ჩვენება"
 
 #: khtml_part.cpp:7654
 #, kde-format
@@ -1473,17 +1334,7 @@ msgstr ""
 "იქნება.</p> </qt>"
 
 #: khtml_printsettings.cpp:55
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
-#| "enabled, the printout of the HTML document will be black and white only, "
-#| "and all colored background will be converted into white. Printout will be "
-#| "faster and use less ink or toner.</p><p>If this checkbox is disabled, the "
-#| "printout of the HTML document will happen in the original color settings "
-#| "as you see in your application. This may result in areas of full-page "
-#| "color (or grayscale, if you use a black+white printer). Printout will "
-#| "possibly happen slower and will certainly use much more toner or ink.</p> "
-#| "</qt>"
+#, kde-format
 msgid ""
 "<qt><p><strong>'Printerfriendly mode'</strong></p><p>If this checkbox is "
 "enabled, the printout of the HTML document will be black and white only, and "
@@ -1528,16 +1379,14 @@ msgid "Filter error"
 msgstr "ფილტრის შეცდომა"
 
 #: khtmladaptorpart.cpp:29
-#, fuzzy, kde-format
-#| msgid "Relative"
+#, kde-format
 msgid "Inactive"
-msgstr "ფარდობითი"
+msgstr "არააქტიური"
 
 #: khtmlimage.cpp:49
-#, fuzzy, kde-format
-#| msgid "KHTML"
+#, kde-format
 msgid "KHTML Image"
-msgstr "KHTML"
+msgstr "KHTML გამოსახულება"
 
 #: khtmlimage.cpp:195
 #, kde-format
@@ -1564,7 +1413,7 @@ msgstr "გამოსახულება - %1x%2 პიქსელი"
 msgid "Done."
 msgstr "მზადაა."
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr "წვდომის კოდები გააქტივებულია"
@@ -1582,15 +1431,7 @@ msgstr "JavaScript-ის შეცდომა"
 
 #. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
 #: kjserrordlgbase.ui:18
-#, fuzzy, kde-format
-#| msgid ""
-#| "This dialog provides you with notification and details of scripting "
-#| "errors that occur on web pages.  In many cases it is due to an error in "
-#| "the web site as designed by its author.  In other cases it is the result "
-#| "of a programming error in Konqueror.  If you suspect the former, please "
-#| "contact the webmaster of the site in question.  Conversely if you suspect "
-#| "an error in Konqueror, please file a bug report at http://bugs.kde.org/.  "
-#| "A test case which illustrates the problem will be appreciated."
+#, kde-format
 msgid ""
 "This dialog provides you with notification and details of scripting errors "
 "that occur on web pages.  In many cases it is due to an error in the web "
@@ -1600,16 +1441,19 @@ msgid ""
 "in Konqueror, please file a bug report at https://bugs.kde.org/.  A test "
 "case which illustrates the problem will be appreciated."
 msgstr ""
-"ამ დიალოგში ასახულია ვებგვერდებზე სკრიპტის შეცდომების შეტყობინებები. როგორც "
-"წესი, ეს თავად ვებგვერდის შეცდომებია, ზოგჯერ კი - Konqueror-ის.  პირველ "
-"შემთხვევაში შეცდომის შესახებ ვებსაიტის ადმინისტრატორს შეატყობინეთ, ხოლო თუ "
-"მაინც Konqueror-ის შეცდომაა, გაგზავნეთ შეტყობინება მისამართზე http://bugs."
-"kde.org/.  სასურველია შესაბამისი მაგალითიც მოიყვანოთ."
+"ეს ფანჯარა წარმოგიდგენთ გაფრთხილებას და დეტალებს სკრიპტების შეცდომების "
+"შესახებ, რომლებიც ვებგვერდებზე ხდება.  ბევრ შემთხვევაში ეს ვებგვერდის "
+"ავტორის მიერ დაშვებული შეცდომის ბრალია.  სხვა შემთხვევაში კი Konqueror-ის "
+"პროგრამისტების შეცდომას წარმოადგენს.   თუ ეჭვი პირველზეა, საეჭვო ვებგვერდის "
+"ავტორს დაუკავშირდით.  თუ დარწმუნებული ბრძანდებით, რომ ეს Konqueror-ის "
+"შეცდომის ბრალია, გამოგვიგზავნეთ შეცდომის ანგარიში მისამართზე https://bugs."
+"kde.org/.  სასურველია, თუ გამოგვიგზავნით ზუსტ საფეხურებს, როგორ გავიმეოროთ "
+"ეს შეცდომა."
 
 #: kmultipart/httpfiltergzip.cpp:89
 #, kde-format
 msgid "Receiving corrupt data."
-msgstr ""
+msgstr "მიღებულია დაზიანებული მონაცემები."
 
 #: kmultipart/kmultipart.cpp:39
 #, kde-format
@@ -1624,154 +1468,131 @@ msgstr "ჩადგმადი კომპონენტი მრავა�
 #: kmultipart/kmultipart.cpp:43
 #, kde-format
 msgid "Copyright 2001-2011, David Faure <faure@kde.org>"
-msgstr ""
+msgstr "2001-2011, David Faure <faure@kde.org>, ყველა უფლება დაცულია"
 
 #: kmultipart/kmultipart.cpp:335
-#, fuzzy, kde-format
+#, kde-format
 msgid "No handler found for %1."
-msgstr "%1–თვის დამმუშავებელი ვერ მოიძებნა!"
+msgstr "%1–თვის დამმუშავებელი ვერ მოიძებნა."
 
 #: misc/kencodingdetector.cpp:1123 misc/kencodingdetector.cpp:1224
-#, fuzzy, kde-format
-#| msgid "Unicode"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Unicode"
 msgstr "უნიკოდი"
 
 #: misc/kencodingdetector.cpp:1125 misc/kencodingdetector.cpp:1194
-#, fuzzy, kde-format
-#| msgid "Cyrillic"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Cyrillic"
 msgstr "კირილიცა"
 
 #: misc/kencodingdetector.cpp:1127 misc/kencodingdetector.cpp:1209
-#, fuzzy, kde-format
-#| msgid "Western European"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Western European"
-msgstr "დასავლეთ ევროპა"
+msgstr "დასავლეთ ევროპული"
 
 #: misc/kencodingdetector.cpp:1129 misc/kencodingdetector.cpp:1191
-#, fuzzy, kde-format
-#| msgid "Central European"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Central European"
-msgstr "ცენტრალური ევროპა"
+msgstr "ცენტრალურ ევროპული"
 
 #: misc/kencodingdetector.cpp:1131 misc/kencodingdetector.cpp:1197
-#, fuzzy, kde-format
-#| msgid "Greek"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Greek"
 msgstr "ბერძნული"
 
 #: misc/kencodingdetector.cpp:1133 misc/kencodingdetector.cpp:1200
-#, fuzzy, kde-format
-#| msgid "Hebrew"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Hebrew"
 msgstr "ივრითი"
 
 #: misc/kencodingdetector.cpp:1135 misc/kencodingdetector.cpp:1206
-#, fuzzy, kde-format
-#| msgid "Turkish"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Turkish"
 msgstr "თურქული"
 
 #: misc/kencodingdetector.cpp:1137 misc/kencodingdetector.cpp:1203
-#, fuzzy, kde-format
-#| msgid "Japanese"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Japanese"
 msgstr "იაპონური"
 
 #: misc/kencodingdetector.cpp:1139 misc/kencodingdetector.cpp:1188
-#, fuzzy, kde-format
-#| msgid "Baltic"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Baltic"
-msgstr "ბალტიური"
+msgstr "ბალტიისპირეთის"
 
 #: misc/kencodingdetector.cpp:1141 misc/kencodingdetector.cpp:1185
-#, fuzzy, kde-format
-#| msgid "Arabic"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Arabic"
 msgstr "არაბული"
 
 #: misc/kencodingdetector.cpp:1212
-#, fuzzy, kde-format
-#| msgid "Chinese Traditional"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Chinese Traditional"
 msgstr "ჩინური ტრადიციული"
 
 #: misc/kencodingdetector.cpp:1215
-#, fuzzy, kde-format
-#| msgid "Chinese Simplified"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Chinese Simplified"
-msgstr "ჩინური გამარტივებული"
+msgstr "ჩინური გაადვილებული"
 
 #: misc/kencodingdetector.cpp:1218
-#, fuzzy, kde-format
-#| msgid "Korean"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Korean"
 msgstr "კორეული"
 
 #: misc/kencodingdetector.cpp:1221
-#, fuzzy, kde-format
-#| msgid "Thai"
+#, kde-format
 msgctxt "@item Text character set"
 msgid "Thai"
-msgstr "ტაი"
+msgstr "ტაილანდური"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "დაკვრა"
 
-#: rendering/media_controls.cpp:48
-#, fuzzy, kde-format
+#: rendering/media_controls.cpp:53
+#, kde-format
 msgid "Pause"
-msgstr "Pause"
+msgstr "შეჩერება"
 
 #: rendering/render_form.cpp:901
-#, fuzzy, kde-format
-#| msgid "Shortcut"
+#, kde-format
 msgid "New Web Shortcut"
-msgstr "მალმხმობი"
-
-#: rendering/render_form.cpp:922
-#, fuzzy, kde-format
-#| msgctxt "Socket error code AlreadyCreated"
-#| msgid "socket is already created"
-msgid "%1 is already assigned to %2"
-msgstr "ბუდე უკვე შეიქმნა"
+msgstr "ახალი ვების მალსახმობი"
 
 #: rendering/render_form.cpp:922
 #, kde-format
-msgid "Error"
-msgstr "შეცდომა"
+msgid "%1 is already assigned to %2"
+msgstr "%1 უკვე მინიჭებულია %2-ზე"
 
 #: rendering/render_form.cpp:968
 #, kde-format
 msgid "Search &provider name:"
-msgstr ""
+msgstr "მომწოდებლის სახელის &ძებნა:"
 
 #: rendering/render_form.cpp:970
 #, kde-format
 msgid "New search provider"
-msgstr ""
+msgstr "ახალი ძებნის მომწოდებელი"
 
 #: rendering/render_form.cpp:975
-#, fuzzy, kde-format
-#| msgid "Shortcuts"
+#, kde-format
 msgid "UR&I shortcuts:"
-msgstr "მალმხმობები"
+msgstr "&URI მალსახმობები:"
 
 #: rendering/render_form.cpp:1054
 #, kde-format
@@ -1779,10 +1600,9 @@ msgid "Clear &History"
 msgstr "&ისტორიის გასუფთავება"
 
 #: rendering/render_form.cpp:1069
-#, fuzzy, kde-format
-#| msgid "Configure Shortcut"
+#, kde-format
 msgid "Create Web Shortcut"
-msgstr "მალმხმობის გამართვა"
+msgstr "ვებისს მალსახმობის შექმნა"
 
 #: ui/findbar/khtmlfindbar.cpp:49
 #, kde-format
@@ -1810,35 +1630,29 @@ msgid "Regular e&xpression"
 msgstr "&მარტივი გამოსახულება"
 
 #: ui/findbar/khtmlfindbar.cpp:59
-#, fuzzy, kde-format
-#| msgid "Find Links as You Type"
+#, kde-format
 msgid "Find &links only"
-msgstr "ბმების ძებნა აკრეფისას"
+msgstr "&მხოლოდ ბმულების ძებნა"
 
 #: ui/findbar/khtmlfindbar.cpp:224
-#, fuzzy, kde-format
-#| msgid "1 match found."
-#| msgid_plural "%1 matches found."
+#, kde-format
 msgid "Not found"
-msgstr "მოიძებნა %1 თანხვედრა."
+msgstr "ნაპოვნი არაა"
 
 #: ui/findbar/khtmlfindbar.cpp:239
 #, kde-format
 msgid "No more matches for this search direction."
-msgstr ""
+msgstr "ძებნის ამ მიმართულებით მეტი დამთხვევა აღარ არსებობს."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/findbar/khtmlfindbar_base.ui:43
-#, fuzzy, kde-format
-#| msgid "Find"
+#, kde-format
 msgid "F&ind:"
-msgstr "პოვნა"
+msgstr "&ძებნა:"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_next)
 #: ui/findbar/khtmlfindbar_base.ui:75
-#, fuzzy, kde-format
-#| msgctxt "Opposite to Previous"
-#| msgid "&Next"
+#, kde-format
 msgid "&Next"
 msgstr "&შემდეგი"
 
@@ -1850,44 +1664,38 @@ msgstr "&წინა"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_options)
 #: ui/findbar/khtmlfindbar_base.ui:111
-#, fuzzy, kde-format
-#| msgid "Options"
+#, kde-format
 msgid "Opt&ions"
-msgstr "ოფციები"
+msgstr "&მორგება"
 
 #. i18n: ectx: property (text), widget (QLabel, m_label)
 #: ui/passwordbar/storepassbar.cpp:59 ui/passwordbar/storepassbar_base.ui:39
-#, fuzzy, kde-format
-#| msgid "Do you really want to execute '%1'? "
+#, kde-format
 msgid "Do you want to store this password?"
-msgstr "ნამდვილად გსურთ შეასრულოთ '%1'?"
+msgstr "გნებავთ პაროლის დამახსოვრება?"
 
 #: ui/passwordbar/storepassbar.cpp:61
-#, fuzzy, kde-format
-#| msgid "Do you want to restart search from the end?"
+#, kde-format
 msgid "Do you want to store this password for %1?"
-msgstr "გავაგრძელო ძიება ბოლოდან?"
+msgstr "გნებავთ პაროლის დამახსოვრება %1-სთვის?"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_store)
 #: ui/passwordbar/storepassbar_base.ui:59
-#, fuzzy, kde-format
-#| msgid "Store"
+#, kde-format
 msgid "&Store"
-msgstr "შენახვა"
+msgstr "&დამახსოვრება"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_neverForThisSite)
 #: ui/passwordbar/storepassbar_base.ui:69
-#, fuzzy, kde-format
-#| msgid "Ne&ver for This Site"
+#, kde-format
 msgid "Ne&ver store for this site"
-msgstr "&არასოდეს ამ ფაილისთვის"
+msgstr "&არასდროს ამ საიტისთვის"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
 #: ui/passwordbar/storepassbar_base.ui:79
-#, fuzzy, kde-format
-#| msgid "Do not show this message again"
+#, kde-format
 msgid "Do &not store this time"
-msgstr "აღარ მიჩვენო ეს შეტყობინება"
+msgstr "ა&რა ამჯერად"
 
 #: xml/dom_docimpl.cpp:2376
 #, kde-format
@@ -1908,3 +1716,57 @@ msgstr "დამუშავების კრიტიკული შეც�
 #, kde-format
 msgid "XML parsing error"
 msgstr "XML დამუშავების შეცდომა"
+
+#~ msgid "Initializing Applet \"%1\"..."
+#~ msgstr "აპლეტის ინიციალიზება - \"%1\"..."
+
+#~ msgid "Starting Applet \"%1\"..."
+#~ msgstr "აპლეტის ინიციალიზება - \"%1\"..."
+
+#~ msgid "Applet \"%1\" started"
+#~ msgstr "\"%1\" აპლეტი დაწყებულია"
+
+#~ msgid "Applet \"%1\" stopped"
+#~ msgstr "\"%1\" აპლეტი შეჩერებულია"
+
+#~ msgid "Loading Applet"
+#~ msgstr "აპლეტის ჩატვირთვა"
+
+#~ msgid "Error: java executable not found"
+#~ msgstr "შეცდომა: java პროგრამა ვერ მოიძებნა"
+
+#~ msgid "Do you grant Java applet with certificate(s):"
+#~ msgstr "დავუშვა Java აპლეტის გამოყენება სერთიფიკატ(ებ)ით:"
+
+#~ msgid "the following permission"
+#~ msgstr "შემდეგი უფლება/ები"
+
+#~ msgid "&Reject All"
+#~ msgstr "ყველას &უარყოფა"
+
+#~ msgid "&Yes"
+#~ msgstr "&დიახ"
+
+#~ msgid "&Grant All"
+#~ msgstr "ყველას &დაშვება"
+
+#~ msgid "KDE Java Applet Plugin"
+#~ msgstr "KDE გარემოს Java აპლეტის მოდული"
+
+#~ msgid "Applet Parameters"
+#~ msgstr "აპლეტის პარამეტრები"
+
+#~ msgid "Parameter"
+#~ msgstr "პარამეტრი"
+
+#~ msgid "Class"
+#~ msgstr "კლასები"
+
+#~ msgid "Base URL"
+#~ msgstr "ძირითადი URL"
+
+#~ msgid "Archives"
+#~ msgstr "არქივები"
+
+#~ msgid "Error"
+#~ msgstr "შეცდომა"

@@ -1,9 +1,5 @@
-# translation of kdelibs4.po to Esperanto
-# Esperantaj mesaĝoj por "kdelibs"
+# translation of khtml5.pot to Esperanto
 # Copyright (C) 1998,2002, 2003, 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
-#
-# Minuskloj: ĉ ĝ ĵ ĥ ŝ ŭ   Majuskloj: Ĉ Ĝ Ĵ Ĥ Ŝ Ŭ
-#
 # Wolfram Diestel <wolfram@steloj.de>, 1998.
 # Heiko Evermann <heiko@evermann.de>, 2002, 2003.
 # Matthias Peick <matthias@peick.de>, 2004, 2005.
@@ -11,13 +7,16 @@
 # Cindy McKee <cfmckee@gmail.com>, 2007, 2008.
 # Axel Rousseau <axel@esperanto-jeunes.org>, 2009.
 # Michael Moroni <michael.moroni@mailoo.org>, 2012.
+#
+# Minuskloj: ĉ ĝ ĵ ĥ ŝ ŭ   Majuskloj: Ĉ Ĝ Ĵ Ĥ Ŝ Ŭ
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
-"PO-Revision-Date: 2012-05-22 12:30+0200\n"
-"Last-Translator: Michael Moroni <michael.moroni@mailoo.org>\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
+"PO-Revision-Date: 2023-01-04 22:00+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
@@ -190,7 +189,6 @@ msgstr "Referenco"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "Valoro"
@@ -363,12 +361,12 @@ msgstr[0] "&Sendi dosieron"
 msgstr[1] "&Sendi dosierojn"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "Sendi"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
 msgstr "Restarigi"
@@ -426,23 +424,20 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
 #: html/keygenwizard2.ui:48
-#, fuzzy, kde-format
-#| msgid "&Keep password"
+#, kde-format
 msgid "&Repeat password:"
-msgstr "&Konservi pasvorton"
+msgstr "&Ripeti pasvorton:"
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5)
 #: html/keygenwizard2.ui:58
-#, fuzzy, kde-format
-#| msgid "&Keep password"
+#, kde-format
 msgid "&Choose password:"
-msgstr "&Konservi pasvorton"
+msgstr "&Elekti pasvorton:"
 
 #: html/ksslkeygen.cpp:82
-#, fuzzy, kde-format
-#| msgid "Details of the Request:"
+#, kde-format
 msgid "KDE Certificate Request"
-msgstr "Detaloj de la deziro:"
+msgstr "Peto pri KDE-Atestilo"
 
 #: html/ksslkeygen.cpp:89
 #, kde-format
@@ -450,16 +445,14 @@ msgid "KDE Certificate Request - Password"
 msgstr ""
 
 #: html/ksslkeygen.cpp:126
-#, fuzzy, kde-format
-#| msgid "Unsupported Key"
+#, kde-format
 msgid "Unsupported key size."
-msgstr "Ne subtenata ŝlosilo"
+msgstr "Nesubtenata ŝlosilgrandeco."
 
 #: html/ksslkeygen.cpp:126
-#, fuzzy, kde-format
-#| msgid "Information"
+#, kde-format
 msgid "KDE SSL Information"
-msgstr "Informo"
+msgstr "KDE SSL Informoj"
 
 #: html/ksslkeygen.cpp:132 khtml_part.cpp:5017
 #, kde-format
@@ -472,22 +465,19 @@ msgid "Please wait while the encryption keys are generated..."
 msgstr ""
 
 #: html/ksslkeygen.cpp:148
-#, fuzzy, kde-format
-#| msgid "Do you want to store this password for %1?"
+#, kde-format
 msgid "Do you wish to store the passphrase in your wallet file?"
-msgstr "Ĉu vi volas konservi la pasvorton por %1?"
+msgstr "Ĉu vi deziras konservi la pasfrazon in via monuja dosiero?"
 
 #: html/ksslkeygen.cpp:148
-#, fuzzy, kde-format
-#| msgid "&Store"
+#, kde-format
 msgid "Store"
-msgstr "Kon&servi"
+msgstr "Konservi"
 
 #: html/ksslkeygen.cpp:148
-#, fuzzy, kde-format
-#| msgid "&Do Not Save"
+#, kde-format
 msgid "Do Not Store"
-msgstr "&Ne konservi"
+msgstr "Ne Konservi"
 
 #: html/ksslkeygen.cpp:257
 #, kde-format
@@ -510,10 +500,9 @@ msgid "512  (Low Grade)"
 msgstr ""
 
 #: html/ksslkeygen.cpp:262
-#, fuzzy, kde-format
-#| msgid "Enable SOCKS support"
+#, kde-format
 msgid "No SSL support."
-msgstr "Enŝalti subtenon de SOCKS"
+msgstr "Neniu subteno por SSL."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
 #: htmlpageinfo.ui:22
@@ -569,111 +558,6 @@ msgstr "HTTP-paĝokapoj"
 #, kde-format
 msgid "Property"
 msgstr "Eco"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "Lanĉebligas apleton \"%1\"..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "Lanĉas apleton \"%1\"..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "Apleto \"%1\" lanĉiĝis"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "Apleto \"%1\" ĉesis"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "Ŝargas apleton"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "Eraro: programo \"java\" ne troviĝis"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "Subskribita de: (validigo: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "Atestilo (validigo: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "Sekurecaverto"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "Ĉu vi permesas Ĝavaplikaĵon kun atestilo(j):"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "la sekva rajto"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "&Ne"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "&Malakcepti ĉiujn"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "&Jes"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "&Permesi ĉiujn"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "KDEa Ĝava apleta kromprogrameto"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "Apletaj parametroj"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "Parametro"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "Klaso"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "Baza retadreso"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "Arkivoj"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -917,18 +801,17 @@ msgstr "SSL"
 #: khtml_part.cpp:314
 #, kde-format
 msgid "Print Rendering Tree to STDOUT"
-msgstr "Presi bildigan arbon al norma eligejo"
+msgstr "Presi bildigan arbon al STDOUT"
 
 #: khtml_part.cpp:318
 #, kde-format
 msgid "Print DOM Tree to STDOUT"
-msgstr "Presi DOMan arbon al norma eligejo"
+msgstr "Presi DOMan arbon al STDOUT"
 
 #: khtml_part.cpp:322
-#, fuzzy, kde-format
-#| msgid "Print DOM Tree to STDOUT"
+#, kde-format
 msgid "Print frame tree to STDOUT"
-msgstr "Presi DOMan arbon al norma eligejo"
+msgstr "Presi framarbon al STDOUT"
 
 #: khtml_part.cpp:326
 #, kde-format
@@ -1229,12 +1112,10 @@ msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[Ecoj]</a>"
 
 #: khtml_part.cpp:4018
-#, fuzzy, kde-format
-#| msgctxt "@item Text character set"
-#| msgid "Turkish"
+#, kde-format
 msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Quirks"
-msgstr "Turka"
+msgstr "Kapricoj (Quirks)"
 
 #: khtml_part.cpp:4021
 #, kde-format
@@ -1243,11 +1124,10 @@ msgid "Almost standards"
 msgstr ""
 
 #: khtml_part.cpp:4025
-#, fuzzy, kde-format
-#| msgid "Start"
+#, kde-format
 msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Strict"
-msgstr "Starti"
+msgstr "Strikta"
 
 #: khtml_part.cpp:4094
 #, kde-format
@@ -1354,6 +1234,11 @@ msgstr "Sekurecaverto"
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>Atingo de nefidata paĝo al <br/><b>%1</b><br/> estas rifuzita.</qt>"
+
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "Sekurecaverto"
 
 #: khtml_part.cpp:7417
 #, kde-format
@@ -1504,10 +1389,9 @@ msgid "Inactive"
 msgstr "Ne aktiva"
 
 #: khtmlimage.cpp:49
-#, fuzzy, kde-format
-#| msgid "KHTML"
+#, kde-format
 msgid "KHTML Image"
-msgstr "KHTML"
+msgstr "KHTML-Bildo"
 
 #: khtmlimage.cpp:195
 #, kde-format
@@ -1534,7 +1418,7 @@ msgstr "Bildo - %1x%2 rastrumeroj"
 msgid "Done."
 msgstr "Farita."
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr "Ŝaltis fulmoklavojn"
@@ -1552,15 +1436,7 @@ msgstr "Ĝavaskriptaj eraroj"
 
 #. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
 #: kjserrordlgbase.ui:18
-#, fuzzy, kde-format
-#| msgid ""
-#| "This dialog provides you with notification and details of scripting "
-#| "errors that occur on web pages.  In many cases it is due to an error in "
-#| "the web site as designed by its author.  In other cases it is the result "
-#| "of a programming error in Konqueror.  If you suspect the former, please "
-#| "contact the webmaster of the site in question.  Conversely if you suspect "
-#| "an error in Konqueror, please file a bug report at http://bugs.kde.org/.  "
-#| "A test case which illustrates the problem will be appreciated."
+#, kde-format
 msgid ""
 "This dialog provides you with notification and details of scripting errors "
 "that occur on web pages.  In many cases it is due to an error in the web "
@@ -1570,12 +1446,12 @@ msgid ""
 "in Konqueror, please file a bug report at https://bugs.kde.org/.  A test "
 "case which illustrates the problem will be appreciated."
 msgstr ""
-"Tiu dialogo havigas vin kun noto kaj detaloj pri skripteraroj, kiuj okazas "
-"en la TTTa paĝoj. Ĉe multaj okazoj ili estas kaŭzata de eraro en la retejo, "
-"verkita de la kreinto. ĉe aliaj okazoj ili estas la rezulto de programa "
-"eraro en Konkeranto. Se vi kredas la unuan, bonvolu informi la teksestron. "
-"Se male vi kredas pri eraro en Konkeranto, bonvolu raporti ĝin al http://"
-"bugs.kde.org/. Ni ŝate ricevas testokazon, kiu montras la problemon."
+"Tiu dialogo havigas al vi sciigon kaj detalojn pri skripteraroj, kiuj okazas "
+"en TTTaj paĝoj. En multaj kazoj ili estas kaŭzataj de eraro en la retejo "
+"verkita de la kreinto. En aliaj kazoj ili estas la rezulto de programa eraro "
+"en Konkeranto. Se vi kredas la unuan, bonvolu informi la teksestron. Se male "
+"vi kredas pri eraro en Konkeranto, bonvolu raporti ĝin al http://bugs.kde."
+"org/. Testkazo, kiu montras la problemon, estos aprezata."
 
 #: kmultipart/httpfiltergzip.cpp:89
 #, kde-format
@@ -1593,10 +1469,9 @@ msgid "Embeddable component for multipart/mixed"
 msgstr "Enkorpigita parto por multparta/miksa"
 
 #: kmultipart/kmultipart.cpp:43
-#, fuzzy, kde-format
-#| msgid "Copyright 2001-2011, David Faure <email>faure@kde.org</email>"
+#, kde-format
 msgid "Copyright 2001-2011, David Faure <faure@kde.org>"
-msgstr "Copyright 2001-2011, David FAURE <email>faure@kde.org</email>"
+msgstr "Copyright 2001-2011, David Faure <faure@kde.org>"
 
 #: kmultipart/kmultipart.cpp:335
 #, kde-format
@@ -1687,12 +1562,12 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "Taja"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
 msgstr "Ludi"
 
-#: rendering/media_controls.cpp:48
+#: rendering/media_controls.cpp:53
 #, kde-format
 msgid "Pause"
 msgstr "Paŭzigi"
@@ -1703,16 +1578,9 @@ msgid "New Web Shortcut"
 msgstr "Nova Ret-klavkombino"
 
 #: rendering/render_form.cpp:922
-#, fuzzy, kde-format
-#| msgctxt "Socket error code AlreadyCreated"
-#| msgid "socket is already created"
-msgid "%1 is already assigned to %2"
-msgstr "la kontaktoskato jam estas kreita"
-
-#: rendering/render_form.cpp:922
 #, kde-format
-msgid "Error"
-msgstr "Eraro"
+msgid "%1 is already assigned to %2"
+msgstr "%1 jam estas atribuita al %2"
 
 #: rendering/render_form.cpp:968
 #, kde-format
@@ -1720,10 +1588,9 @@ msgid "Search &provider name:"
 msgstr "Nomo de &serĉilo:"
 
 #: rendering/render_form.cpp:970
-#, fuzzy, kde-format
-#| msgid "Enter a search term here"
+#, kde-format
 msgid "New search provider"
-msgstr "Entajpu serĉesprimon"
+msgstr "Nova serĉoprovizanto"
 
 #: rendering/render_form.cpp:975
 #, kde-format
@@ -1851,4 +1718,4 @@ msgstr "grava analizeraro: %1 en linio %2, kolumno %3"
 #: xml/xml_tokenizer.cpp:567
 #, kde-format
 msgid "XML parsing error"
-msgstr "XML-analizo-eraro"
+msgstr "XML-analiza eraro"

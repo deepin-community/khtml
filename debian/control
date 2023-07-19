@@ -3,38 +3,39 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Aurélien COUDERC <coucouf@debian.org>,
-           Norbert Preining <norbert@preining.info>,
 Build-Depends: cmake (>= 3.16~),
                debhelper-compat (= 13),
-               extra-cmake-modules (>= 5.90.0~),
+               dh-sequence-kf5,
+               extra-cmake-modules (>= 5.103.0~),
                gperf,
                libgif-dev,
                libjpeg-dev,
-               libkf5archive-dev (>= 5.90.0~),
-               libkf5codecs-dev (>= 5.90.0~),
-               libkf5globalaccel-dev (>= 5.90.0~),
-               libkf5i18n-dev (>= 5.90.0~),
-               libkf5iconthemes-dev (>= 5.90.0~),
-               libkf5kio-dev (>= 5.90.0~),
-               libkf5kjs-dev (>= 5.90.0~),
-               libkf5notifications-dev (>= 5.90.0~),
-               libkf5parts-dev (>= 5.90.0~),
-               libkf5sonnet-dev (>= 5.90.0~),
-               libkf5textwidgets-dev (>= 5.90.0~),
-               libkf5wallet-dev (>= 5.90.0~),
-               libkf5widgetsaddons-dev (>= 5.90.0~),
-               libkf5windowsystem-dev (>= 5.90.0~),
-               libkf5xmlgui-dev (>= 5.90.0~),
-               libphonon4qt5-dev (>= 4:4.6.0),
+               libkf5archive-dev (>= 5.103.0~),
+               libkf5codecs-dev (>= 5.103.0~),
+               libkf5globalaccel-dev (>= 5.103.0~),
+               libkf5i18n-dev (>= 5.103.0~),
+               libkf5iconthemes-dev (>= 5.103.0~),
+               libkf5kio-dev (>= 5.103.0~),
+               libkf5kjs-dev (>= 5.103.0~),
+               libkf5notifications-dev (>= 5.103.0~),
+               libkf5parts-dev (>= 5.103.0~),
+               libkf5sonnet-dev (>= 5.103.0~),
+               libkf5textwidgets-dev (>= 5.103.0~),
+               libkf5wallet-dev (>= 5.103.0~),
+               libkf5widgetsaddons-dev (>= 5.103.0~),
+               libkf5windowsystem-dev (>= 5.103.0~),
+               libkf5xmlgui-dev (>= 5.103.0~),
+               libphonon4qt5-dev (>= 4:4.6.60~),
                libphonon4qt5experimental-dev (>= 4:4.6.0),
                libpng-dev,
                libqt5x11extras5-dev (>= 5.15.2~),
                libssl-dev,
+               libx11-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.15.2~),
                zlib1g-dev,
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Homepage: https://invent.kde.org/frameworks/khtml
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/khtml
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/khtml.git
@@ -42,7 +43,7 @@ Rules-Requires-Root: no
 
 Package: libkf5khtml-bin
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
@@ -52,7 +53,7 @@ Description: HTML widget and component
 Package: libkf5khtml-data
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.
@@ -62,19 +63,19 @@ Description: HTML widget and component
 Package: libkf5khtml-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5archive-dev (>= 5.90.0~),
-         libkf5globalaccel-dev (>= 5.90.0~),
-         libkf5i18n-dev (>= 5.90.0~),
-         libkf5iconthemes-dev (>= 5.90.0~),
+Depends: libkf5archive-dev (>= 5.103.0~),
+         libkf5globalaccel-dev (>= 5.103.0~),
+         libkf5i18n-dev (>= 5.103.0~),
+         libkf5iconthemes-dev (>= 5.103.0~),
          libkf5khtml5 (= ${binary:Version}),
-         libkf5kio-dev (>= 5.90.0~),
-         libkf5kjs-dev (>= 5.90.0~),
-         libkf5notifications-dev (>= 5.90.0~),
-         libkf5parts-dev (>= 5.90.0~),
-         libkf5sonnet-dev (>= 5.90.0~),
-         libkf5wallet-dev (>= 5.90.0~),
-         libkf5widgetsaddons-dev (>= 5.90.0~),
-         libkf5windowsystem-dev (>= 5.90.0~),
+         libkf5kio-dev (>= 5.103.0~),
+         libkf5kjs-dev (>= 5.103.0~),
+         libkf5notifications-dev (>= 5.103.0~),
+         libkf5parts-dev (>= 5.103.0~),
+         libkf5sonnet-dev (>= 5.103.0~),
+         libkf5wallet-dev (>= 5.103.0~),
+         libkf5widgetsaddons-dev (>= 5.103.0~),
+         libkf5windowsystem-dev (>= 5.103.0~),
          qtbase5-dev (>= 5.15.2~),
          ${misc:Depends},
 Description: HTML widget and component
@@ -82,7 +83,7 @@ Description: HTML widget and component
  using KJS for JavaScript support.
  .
  Contains development files for khtml.
-Breaks: libkf5kdelibs4support-dev (<< 5.54)
+Breaks: libkf5kdelibs4support-dev (<< 5.54),
 
 Package: libkf5khtml5
 Architecture: any
@@ -90,7 +91,7 @@ Multi-Arch: same
 Depends: libkf5khtml-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
-Recommends: libkf5khtml-bin (= ${binary:Version})
+Recommends: libkf5khtml-bin (= ${binary:Version}),
 Description: HTML widget and component
  KHTML is a web rendering engine, based on the KParts technology and
  using KJS for JavaScript support.

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
 "PO-Revision-Date: 2012-09-23 18:43+0800\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: American English <kde-i18n-vi@kde.org>\n"
@@ -182,7 +182,6 @@ msgstr "Tham chiếu"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "Giá trị"
@@ -355,12 +354,12 @@ msgid_plural "&Send Files"
 msgstr[0] "&Gửi tệp"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "Gởi"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
 msgstr "Đặt lại"
@@ -562,111 +561,6 @@ msgstr "Dòng đầu HTTP"
 #, kde-format
 msgid "Property"
 msgstr "Thuộc tính"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "Đang sở khởi tiểu dụng \"%1\"..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "Đang khởi chạy tiểu dụng \"%1\"..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "Tiểu dụng \"%1\" đã khởi chạy"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "Tiểu dụng \"%1\" đã dừng"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "Đang tải tiểu dụng..."
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "Lỗi : không tìm thấy tệp thực hiện được Java"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "Đã kí bởi (xác thực: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "Chứng thực (xác thực: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "Cảnh giác bảo mật"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "Bạn có cho tiểu dụng Java có chứng nhận:"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "quyền theo đây"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "&Không"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "&Từ chối hết"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "&Có"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "Cho &phép hết"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "Bộ cầm phít tiểu dụng Java KDE"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "Tham số tiểu dụng"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "Tham số"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "Hạng"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "Địa chỉ Mạng cơ bản"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "Kho"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1347,6 +1241,11 @@ msgstr "Cảnh báo bảo mật"
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>Đã từ chối truy cập từ trang không tin cậy<br /><b>%1</b></qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "Cảnh giác bảo mật"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -1519,7 +1418,7 @@ msgstr "Ảnh - %1x%2 điểm ảnh"
 msgid "Done."
 msgstr "Đã xong."
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr "Phím truy cập hoạt động"
@@ -1674,12 +1573,12 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "Thái"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
 msgstr "Phát"
 
-#: rendering/media_controls.cpp:48
+#: rendering/media_controls.cpp:53
 #, kde-format
 msgid "Pause"
 msgstr "Tạm dừng"
@@ -1693,11 +1592,6 @@ msgstr "Lối tắt mạng mới"
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "%1 đã được gán cho %2"
-
-#: rendering/render_form.cpp:922
-#, kde-format
-msgid "Error"
-msgstr "Lỗi"
 
 #: rendering/render_form.cpp:968
 #, kde-format
@@ -1836,3 +1730,66 @@ msgstr "lỗi phân tách nghiêm trọng: %1 trên dòng %2, cột %3"
 #, kde-format
 msgid "XML parsing error"
 msgstr "Lỗi phân tách XML"
+
+#~ msgid "Error"
+#~ msgstr "Lỗi"
+
+#~ msgid "Initializing Applet \"%1\"..."
+#~ msgstr "Đang sở khởi tiểu dụng \"%1\"..."
+
+#~ msgid "Starting Applet \"%1\"..."
+#~ msgstr "Đang khởi chạy tiểu dụng \"%1\"..."
+
+#~ msgid "Applet \"%1\" started"
+#~ msgstr "Tiểu dụng \"%1\" đã khởi chạy"
+
+#~ msgid "Applet \"%1\" stopped"
+#~ msgstr "Tiểu dụng \"%1\" đã dừng"
+
+#~ msgid "Loading Applet"
+#~ msgstr "Đang tải tiểu dụng..."
+
+#~ msgid "Error: java executable not found"
+#~ msgstr "Lỗi : không tìm thấy tệp thực hiện được Java"
+
+#~ msgid "Signed by (validation: %1)"
+#~ msgstr "Đã kí bởi (xác thực: %1)"
+
+#~ msgid "Certificate (validation: %1)"
+#~ msgstr "Chứng thực (xác thực: %1)"
+
+#~ msgid "Do you grant Java applet with certificate(s):"
+#~ msgstr "Bạn có cho tiểu dụng Java có chứng nhận:"
+
+#~ msgid "the following permission"
+#~ msgstr "quyền theo đây"
+
+#~ msgid "&No"
+#~ msgstr "&Không"
+
+#~ msgid "&Reject All"
+#~ msgstr "&Từ chối hết"
+
+#~ msgid "&Yes"
+#~ msgstr "&Có"
+
+#~ msgid "&Grant All"
+#~ msgstr "Cho &phép hết"
+
+#~ msgid "KDE Java Applet Plugin"
+#~ msgstr "Bộ cầm phít tiểu dụng Java KDE"
+
+#~ msgid "Applet Parameters"
+#~ msgstr "Tham số tiểu dụng"
+
+#~ msgid "Parameter"
+#~ msgstr "Tham số"
+
+#~ msgid "Class"
+#~ msgstr "Hạng"
+
+#~ msgid "Base URL"
+#~ msgstr "Địa chỉ Mạng cơ bản"
+
+#~ msgid "Archives"
+#~ msgstr "Kho"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
 "PO-Revision-Date: 2019-01-11 11:18+0000\n"
 "Last-Translator: José Nuno Pires <zepires@gmail.com>\n"
 "Language-Team: pt <kde-i18n-pt@kde.org>\n"
@@ -269,7 +269,6 @@ msgstr "Referência"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "Valor"
@@ -447,12 +446,12 @@ msgstr[0] "&Enviar o Ficheiro"
 msgstr[1] "&Enviar os Ficheiros"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "Enviar"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
 msgstr "Reiniciar"
@@ -650,111 +649,6 @@ msgstr "Cabeçalhos de HTTP"
 #, kde-format
 msgid "Property"
 msgstr "Propriedade"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "A Inicializar a 'Applet' \"%1\"..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "A Iniciar a 'Applet' \"%1\"..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "A 'applet' \"%1\" iniciou-se"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "A 'applet' \"%1\" foi interrompida"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "A Ler a 'Applet'"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "Erro: não foi encontrado o executável 'java'"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "Assinado por (validação: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "Certificado (validação: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "Alerta de Segurança"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "Deseja atribuir ao 'applet' Java com o(s) certificado(s):"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "a seguinte permissão"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "&Não"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "&Rejeitar Tudo"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "&Sim"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "A&tribuir Tudo"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "'Plugin' de 'Applets' de Java do KDE"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "Parâmetros da 'Applet'"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "Parâmetro"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "Classe"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "URL de Base"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "Pacotes"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1440,6 +1334,11 @@ msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>O acesso pela página não-fiável a <br/><b>%1</b><br/> foi negado.</qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "Alerta de Segurança"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -1621,7 +1520,7 @@ msgstr "Imagem - %1x%2 Pontos"
 msgid "Done."
 msgstr "Terminado."
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr "Teclas de Acesso activadas"
@@ -1766,12 +1665,12 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "Tailandês"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
 msgstr "Reproduzir"
 
-#: rendering/media_controls.cpp:48
+#: rendering/media_controls.cpp:53
 #, kde-format
 msgid "Pause"
 msgstr "Pausa"
@@ -1785,11 +1684,6 @@ msgstr "Novo Atalho Web"
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "%1 já está atribuído a %2"
-
-#: rendering/render_form.cpp:922
-#, kde-format
-msgid "Error"
-msgstr "Erro"
 
 #: rendering/render_form.cpp:968
 #, kde-format
@@ -1928,3 +1822,66 @@ msgstr "erro fatal de análise: %1 na linha %2, coluna %3"
 #, kde-format
 msgid "XML parsing error"
 msgstr "Erro de análise do XML"
+
+#~ msgid "Error"
+#~ msgstr "Erro"
+
+#~ msgid "Initializing Applet \"%1\"..."
+#~ msgstr "A Inicializar a 'Applet' \"%1\"..."
+
+#~ msgid "Starting Applet \"%1\"..."
+#~ msgstr "A Iniciar a 'Applet' \"%1\"..."
+
+#~ msgid "Applet \"%1\" started"
+#~ msgstr "A 'applet' \"%1\" iniciou-se"
+
+#~ msgid "Applet \"%1\" stopped"
+#~ msgstr "A 'applet' \"%1\" foi interrompida"
+
+#~ msgid "Loading Applet"
+#~ msgstr "A Ler a 'Applet'"
+
+#~ msgid "Error: java executable not found"
+#~ msgstr "Erro: não foi encontrado o executável 'java'"
+
+#~ msgid "Signed by (validation: %1)"
+#~ msgstr "Assinado por (validação: %1)"
+
+#~ msgid "Certificate (validation: %1)"
+#~ msgstr "Certificado (validação: %1)"
+
+#~ msgid "Do you grant Java applet with certificate(s):"
+#~ msgstr "Deseja atribuir ao 'applet' Java com o(s) certificado(s):"
+
+#~ msgid "the following permission"
+#~ msgstr "a seguinte permissão"
+
+#~ msgid "&No"
+#~ msgstr "&Não"
+
+#~ msgid "&Reject All"
+#~ msgstr "&Rejeitar Tudo"
+
+#~ msgid "&Yes"
+#~ msgstr "&Sim"
+
+#~ msgid "&Grant All"
+#~ msgstr "A&tribuir Tudo"
+
+#~ msgid "KDE Java Applet Plugin"
+#~ msgstr "'Plugin' de 'Applets' de Java do KDE"
+
+#~ msgid "Applet Parameters"
+#~ msgstr "Parâmetros da 'Applet'"
+
+#~ msgid "Parameter"
+#~ msgstr "Parâmetro"
+
+#~ msgid "Class"
+#~ msgstr "Classe"
+
+#~ msgid "Base URL"
+#~ msgstr "URL de Base"
+
+#~ msgid "Archives"
+#~ msgstr "Pacotes"

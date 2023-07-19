@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khtml5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
 "PO-Revision-Date: 2017-05-16 06:49-0400\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Hebrew <kde-i18n-doc@kde.org>\n"
@@ -193,7 +193,6 @@ msgstr "התייחסות"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "ערך"
@@ -365,12 +364,12 @@ msgstr[0] "&שלח קובץ"
 msgstr[1] "&שלח קבצים"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "שלח"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
 msgstr "אפס"
@@ -562,111 +561,6 @@ msgstr "כותרות HTTP"
 #, kde-format
 msgid "Property"
 msgstr "מאפיין"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "מאתחל את היישומון \"%1\"..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "מפעיל את היישומון \"%1\"..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "היישומון \"%1\" מופעל"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "היישומון \"%1\" נעצר"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "טוען יישומון"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "שגיאה: קובץ התוכנית java לא נמצא"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "נחתם על ידי (ווידוא תוקף: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "תעודה (ווידוא תוקף: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "אזעקת אבטחה"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "האם ברצונך לתת ליישומון ה־Java עם התעודות הבאות:"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "את ההרשאה הבאה"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "&לא"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "&דחה הכל"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "&כן"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "&אפשר הכל"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "תוסף יישומוני Java עבור KDE"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "פרמטרים ליישומון"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "פרמטרים"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "מחלקה"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "כתובת בסיס"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "ארכיונים"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1343,6 +1237,11 @@ msgstr "אזהרת אבטחה"
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>הגישה מדף לא נבטח אל<br /><b>%1</b><br />  נדחתה.</qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "אזעקת אבטחה"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -1514,7 +1413,7 @@ msgstr "תמונה - %1 על %2 פיקסלים"
 msgid "Done."
 msgstr "הושלם."
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr "מקשי הנגישות הופעלו"
@@ -1666,12 +1565,12 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "תאילנדי"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
 msgstr "נגן"
 
-#: rendering/media_controls.cpp:48
+#: rendering/media_controls.cpp:53
 #, kde-format
 msgid "Pause"
 msgstr "השהה"
@@ -1685,11 +1584,6 @@ msgstr "קיצור אינטרנט חדש"
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "הקיצור %1 כבר מוקצה עבור %2"
-
-#: rendering/render_form.cpp:922
-#, kde-format
-msgid "Error"
-msgstr "שגיאה"
 
 #: rendering/render_form.cpp:968
 #, kde-format
@@ -1828,3 +1722,66 @@ msgstr "שגיאת פירוק קריטית: %1 בשורה %2, עמודה %3"
 #, kde-format
 msgid "XML parsing error"
 msgstr "שגיאת פירוש XML"
+
+#~ msgid "Error"
+#~ msgstr "שגיאה"
+
+#~ msgid "Initializing Applet \"%1\"..."
+#~ msgstr "מאתחל את היישומון \"%1\"..."
+
+#~ msgid "Starting Applet \"%1\"..."
+#~ msgstr "מפעיל את היישומון \"%1\"..."
+
+#~ msgid "Applet \"%1\" started"
+#~ msgstr "היישומון \"%1\" מופעל"
+
+#~ msgid "Applet \"%1\" stopped"
+#~ msgstr "היישומון \"%1\" נעצר"
+
+#~ msgid "Loading Applet"
+#~ msgstr "טוען יישומון"
+
+#~ msgid "Error: java executable not found"
+#~ msgstr "שגיאה: קובץ התוכנית java לא נמצא"
+
+#~ msgid "Signed by (validation: %1)"
+#~ msgstr "נחתם על ידי (ווידוא תוקף: %1)"
+
+#~ msgid "Certificate (validation: %1)"
+#~ msgstr "תעודה (ווידוא תוקף: %1)"
+
+#~ msgid "Do you grant Java applet with certificate(s):"
+#~ msgstr "האם ברצונך לתת ליישומון ה־Java עם התעודות הבאות:"
+
+#~ msgid "the following permission"
+#~ msgstr "את ההרשאה הבאה"
+
+#~ msgid "&No"
+#~ msgstr "&לא"
+
+#~ msgid "&Reject All"
+#~ msgstr "&דחה הכל"
+
+#~ msgid "&Yes"
+#~ msgstr "&כן"
+
+#~ msgid "&Grant All"
+#~ msgstr "&אפשר הכל"
+
+#~ msgid "KDE Java Applet Plugin"
+#~ msgstr "תוסף יישומוני Java עבור KDE"
+
+#~ msgid "Applet Parameters"
+#~ msgstr "פרמטרים ליישומון"
+
+#~ msgid "Parameter"
+#~ msgstr "פרמטרים"
+
+#~ msgid "Class"
+#~ msgstr "מחלקה"
+
+#~ msgid "Base URL"
+#~ msgstr "כתובת בסיס"
+
+#~ msgid "Archives"
+#~ msgstr "ארכיונים"

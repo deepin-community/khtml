@@ -17,20 +17,21 @@
 # Serdar SOYTETİR <tulliana@gmail.com>, 2010, 2012.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2014.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
+# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
-"PO-Revision-Date: 2017-05-08 14:43+0000\n"
-"Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
+"PO-Revision-Date: 2023-01-18 22:29+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 22.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -47,7 +48,7 @@ msgstr ""
 #: ecma/debugger/callstackdock.cpp:35
 #, kde-format
 msgid "Call Stack"
-msgstr "Çağrım Yığını"
+msgstr "Çağrı Yığını"
 
 #: ecma/debugger/callstackdock.cpp:39
 #, kde-format
@@ -101,7 +102,7 @@ msgstr "Sonrakinde Ara Ver"
 #: ecma/debugger/debugwindow.cpp:179
 #, kde-format
 msgid "Continue"
-msgstr "Devam et"
+msgstr "Sürdür"
 
 #: ecma/debugger/debugwindow.cpp:185
 #, kde-format
@@ -136,7 +137,7 @@ msgstr "Hata &Ayıkla"
 #: ecma/debugger/debugwindow.cpp:225
 #, kde-format
 msgid "&Settings"
-msgstr "Ayarla&r"
+msgstr "Ayar&lar"
 
 #: ecma/debugger/debugwindow.cpp:251
 #, kde-format
@@ -197,7 +198,6 @@ msgstr "Referans"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "Değer"
@@ -215,7 +215,7 @@ msgid ""
 "Do you want to stop the script?"
 msgstr ""
 "Bu sayfadaki bir betik, KHTML uygulamasının donmasına yol açıyor. Eğer "
-"çalışmaya devam ederse, diğer uygulamalarınızın çalışması yavaşlayabilir.\n"
+"çalışmayı sürdürürse diğer uygulamalarınızın çalışması yavaşlayabilir.\n"
 "Bu betiği durdurmak ister misiniz?"
 
 #: ecma/kjs_binding.cpp:195
@@ -336,8 +336,8 @@ msgid ""
 "The following files will not be uploaded because they could not be found.\n"
 "Do you want to continue?"
 msgstr ""
-"Aşağıdaki dosyalar bulunamadıkları için gönderilmeyecekler. \n"
-"Devam etmek istiyor musunuz?"
+"Aşağıdaki dosyalar bulunamadıkları için gönderilmeyecekler.\n"
+"Sürdürmek istiyor musunuz?"
 
 #: html/html_formimpl.cpp:424
 #, kde-format
@@ -358,7 +358,7 @@ msgid ""
 msgstr ""
 "Aşağıdaki dosyaları bilgisayarınızdan İnternet'teki başka bir bilgisayara "
 "göndermek üzeresiniz.\n"
-"Gerçekten devam etmek istiyor musunuz?"
+"Gerçekten sürdürmek istiyor musunuz?"
 
 #: html/html_formimpl.cpp:438
 #, kde-format
@@ -373,12 +373,12 @@ msgstr[0] "&Dosya Gönder"
 msgstr[1] "&Dosyaları Gönder"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "Gönder"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
 msgstr "Sıfırla"
@@ -415,7 +415,7 @@ msgstr "İndirme"
 #: html/htmlparser.cpp:1980
 #, kde-format
 msgid "This is a searchable index. Enter search keywords: "
-msgstr "Bu aranabilir bir dizindir. Anahtar kelimeleri giriniz: "
+msgstr "Bu aranabilir bir dizindir. Arama anahtar sözcüklerini girin:"
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #: html/keygenwizard.ui:35
@@ -443,7 +443,7 @@ msgstr ""
 #: html/keygenwizard2.ui:48
 #, kde-format
 msgid "&Repeat password:"
-msgstr "Parolayı Te&krarla:"
+msgstr "Parolayı Yi&nele:"
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5)
 #: html/keygenwizard2.ui:58
@@ -499,22 +499,22 @@ msgstr "Saklama"
 #: html/ksslkeygen.cpp:257
 #, kde-format
 msgid "2048 (High Grade)"
-msgstr "2048 (Yüksek Seviye)"
+msgstr "2048 (Yüksek Düzey)"
 
 #: html/ksslkeygen.cpp:258
 #, kde-format
 msgid "1024 (Medium Grade)"
-msgstr "1024 (Orta Seviye)"
+msgstr "1024 (Orta Düzey)"
 
 #: html/ksslkeygen.cpp:259
 #, kde-format
 msgid "768  (Low Grade)"
-msgstr "768  (Düşük Seviye)"
+msgstr "768  (Düşük Düzey)"
 
 #: html/ksslkeygen.cpp:260
 #, kde-format
 msgid "512  (Low Grade)"
-msgstr "512  (Düşük Seviye)"
+msgstr "512  (Düşük Düzey)"
 
 #: html/ksslkeygen.cpp:262
 #, kde-format
@@ -562,7 +562,7 @@ msgstr "Belge kodlaması:"
 #: htmlpageinfo.ui:167
 #, kde-format
 msgid "Rendering mode:"
-msgstr "Hazırlama kipi:"
+msgstr "Sunum kipi:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: htmlpageinfo.ui:186
@@ -575,111 +575,6 @@ msgstr "HTTP Başlıkları"
 #, kde-format
 msgid "Property"
 msgstr "Özellik"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "\"%1\" programcığı hazırlanıyor..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "\"%1\" programcığı başlatılıyor..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "\"%1\" programcığı başlatıldı"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "\"%1\" programcığı durdu"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "Programcık yükleniyor"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "Hata: java programı bulunamadı"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "İmzalayan (geçerlilik: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "Sertifika (geçerlilik: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "Güvenlik Uyarısı"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "Java programcığına izin vermek istiyor musunuz, sertifika(lar):"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "şu izin"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "&Hayır"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "&Tümünü Reddet"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "&Evet"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "&Tümünü Kabul Et"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "KDE Java Programcığı Eklentisi"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "Programcık Parametreleri"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "Parametre"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "Sınıf"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "Temel URL"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "Arşivler"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -697,7 +592,7 @@ msgstr "&Dosya"
 #: khtml_browser.rc:18
 #, kde-format
 msgid "&View"
-msgstr "Görü&nüm"
+msgstr "&Görünüm"
 
 #. i18n: ectx: ToolBar (htmlToolBar)
 #: khtml_browser.rc:34
@@ -708,7 +603,7 @@ msgstr "HTML Araç Çubuğu"
 #: khtml_ext.cpp:413
 #, kde-format
 msgid "&Copy Text"
-msgstr "Metni &Kopyala"
+msgstr "Metni Ko&pyala"
 
 #: khtml_ext.cpp:427
 #, kde-format
@@ -718,7 +613,7 @@ msgstr "'%1' Ögesini Aç"
 #: khtml_ext.cpp:444
 #, kde-format
 msgid "&Copy Email Address"
-msgstr "E-posta Adresini &Kopyala"
+msgstr "E-posta Adresini Ko&pyala"
 
 #: khtml_ext.cpp:449
 #, kde-format
@@ -728,7 +623,7 @@ msgstr "&Bağlantıyı Farklı Kaydet..."
 #: khtml_ext.cpp:454
 #, kde-format
 msgid "&Copy Link Address"
-msgstr "B&ağlantı Adresini Kopyala"
+msgstr "Bağlantı Adresini Ko&pyala"
 
 #: khtml_ext.cpp:466
 #, kde-format
@@ -824,12 +719,12 @@ msgstr "Canlandırmayı Durdur"
 #: khtml_ext.cpp:637
 #, kde-format
 msgid "Search for '%1' with %2"
-msgstr "%2 içerisinde %1ögesini ara"
+msgstr "%2 içinde %1ögesini ara"
 
 #: khtml_ext.cpp:647
 #, kde-format
 msgid "Search for '%1' with"
-msgstr "'%1' ifadesini şununla ara"
+msgstr "'%1' İfadesini Şununla Ara"
 
 #: khtml_ext.cpp:693
 #, kde-format
@@ -844,7 +739,7 @@ msgstr "Resmi Farklı Kaydet"
 #: khtml_ext.cpp:726 khtml_ext.cpp:738
 #, kde-format
 msgid "Add URL to Filter"
-msgstr "Filtrelenecek URL Ekle"
+msgstr "Süzülecek URL Ekle"
 
 #: khtml_ext.cpp:727 khtml_ext.cpp:739
 #, kde-format
@@ -856,7 +751,7 @@ msgstr "Adresi girin:"
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
-"\"%1\" isminde bir dosya zaten var. Bunun üzerine yazmak istiyor musunuz?"
+"\"%1\" adında bir dosya zaten var. Bunun üzerine yazmak istiyor musunuz?"
 
 #: khtml_ext.cpp:875
 #, kde-format
@@ -866,7 +761,7 @@ msgstr "Dosyanın üzerine yazılsın mı?"
 #: khtml_ext.cpp:927
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
-msgstr "$PATH içinde İndirme Yöneticisi (%1) bulunamadı"
+msgstr "$PATH içinde İndirme Yöneticisi (%1) bulunamadı "
 
 #: khtml_ext.cpp:928
 #, kde-format
@@ -882,7 +777,7 @@ msgstr ""
 #: khtml_ext.cpp:1007
 #, no-c-format, kde-format
 msgid "Default Font Size (100%)"
-msgstr "Öntanımlı Yazı Tipi Boyutu (% 100)"
+msgstr "Öntanımlı Yazıtipi Boyutu (% 100)"
 
 #: khtml_ext.cpp:1021
 #, no-c-format, kde-format
@@ -912,7 +807,7 @@ msgstr "Belge Bilgisini Göster"
 #: khtml_part.cpp:288
 #, kde-format
 msgid "Save &Background Image As..."
-msgstr "&Arkaplan Resmini Farklı Kaydet..."
+msgstr "&Arka Plan Görselini Farklı Kaydet..."
 
 #: khtml_part.cpp:310 khtml_part.cpp:4189
 #, kde-format
@@ -922,7 +817,7 @@ msgstr "SSL"
 #: khtml_part.cpp:314
 #, kde-format
 msgid "Print Rendering Tree to STDOUT"
-msgstr "Gösterim Ağacını STDOUT'a (standart çıktı) yaz"
+msgstr "Sunum Ağacını STDOUT'a (standart çıktı) yaz"
 
 #: khtml_part.cpp:318
 #, kde-format
@@ -952,7 +847,7 @@ msgstr "&Biçem Kağıdı Kullan"
 #: khtml_part.cpp:381
 #, kde-format
 msgid "Enlarge Font"
-msgstr "Yazı Tipini Büyüt"
+msgstr "Yazıtipini Büyüt"
 
 #: khtml_part.cpp:384
 #, kde-format
@@ -960,14 +855,14 @@ msgid ""
 "<qt>Enlarge Font<br /><br />Make the font in this window bigger. Click and "
 "hold down the mouse button for a menu with all available font sizes.</qt>"
 msgstr ""
-"<qt>Yazı Tipini Büyüt<br /><br />Bu penceredeki yazı tipini büyütür. Farenin "
-"orta düğmesini tıklayıp aşağı çekerek tüm yazı tipi boyutlarını "
+"<qt>Yazıtipini Büyüt<br /><br />Bu penceredeki yazıtipini büyütür. Farenin "
+"orta düğmesini tıklayıp aşağı çekerek tüm yazıtipi boyutlarını "
 "görüntüleyebilirsiniz.</qt>"
 
 #: khtml_part.cpp:388
 #, kde-format
 msgid "Shrink Font"
-msgstr "Yazı Tipini Küçült"
+msgstr "Yazıtipini Küçült"
 
 #: khtml_part.cpp:391
 #, kde-format
@@ -975,8 +870,8 @@ msgid ""
 "<qt>Shrink Font<br /><br />Make the font in this window smaller. Click and "
 "hold down the mouse button for a menu with all available font sizes.</qt>"
 msgstr ""
-"<qt>Yazı Tipini Küçült<br /><br />Bu penceredeki yazı tipi boyutunu küçültür."
-"Farenin orta düğmesini tıklayıp aşağı çekerek tüm yazı tipi boyutlarını "
+"<qt>Yazıtipini Küçült<br /><br />Bu penceredeki yazıtipi boyutunu küçültür."
+"Farenin orta düğmesini tıklayıp aşağı çekerek tüm yazıtipi boyutlarını "
 "görüntüleyebilirsiniz.</qt>"
 
 #: khtml_part.cpp:406
@@ -985,8 +880,8 @@ msgid ""
 "<qt>Find text<br /><br />Shows a dialog that allows you to find text on the "
 "displayed page.</qt>"
 msgstr ""
-"<qt>Metin bul<br /><br />Gösterilen sayfa içerisinde metin bulmanızı "
-"sağlayacak bir pencere gösterir.</qt>"
+"<qt>Metin bul<br /><br />Gösterilen sayfa içinde metin bulmanızı sağlayacak "
+"bir pencere gösterir.</qt>"
 
 #: khtml_part.cpp:410
 #, kde-format
@@ -1031,8 +926,8 @@ msgstr "Bağlantıları Yazdıkça Bul"
 msgid ""
 "This shortcut shows the find bar, and sets the option \"Find links only\"."
 msgstr ""
-"Bu kısayol arama çubuğunu gösterir ve \"Sadece kısayolları bul\" seçeneğini "
-"ayarlar"
+"Bu kısayol arama çubuğunu gösterir ve \"Yalnızca kısayolları bul\" "
+"seçeneğini ayarlar."
 
 #: khtml_part.cpp:450
 #, kde-format
@@ -1041,8 +936,8 @@ msgid ""
 "single frame, click on it and then use this function.</qt>"
 msgstr ""
 "<qt>Çerçeveyi Yazdır<br /><br /> Bazı sayfaların birden fazla çerçevesi "
-"olabilir. Sadece tek çerçeveyi yazdırmak için bu çerçeve üzerine tıklayın ve "
-"ardından bu fonksiyonu kullanın.</qt>"
+"olabilir. Yalnızca tek çerçeveyi yazdırmak için bu çerçeve üzerine tıklayın "
+"ve ardından bu fonksiyonu kullanın.</qt>"
 
 #: khtml_part.cpp:465
 #, kde-format
@@ -1186,7 +1081,7 @@ msgstr "%2 (%1 K)"
 #: khtml_part.cpp:3788
 #, kde-format
 msgid " (In other frame)"
-msgstr " (Başka çerçeve içerisinde)"
+msgstr " (Başka çerçeve içinde)"
 
 #: khtml_part.cpp:3794
 #, kde-format
@@ -1239,33 +1134,27 @@ msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[Özellikler]</a>"
 
 #: khtml_part.cpp:4018
-#, fuzzy, kde-format
-#| msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
-#| msgid "Quirks"
+#, kde-format
 msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Quirks"
-msgstr "Quirkler"
+msgstr "Özel Durumlar"
 
 #: khtml_part.cpp:4021
-#, fuzzy, kde-format
-#| msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
-#| msgid "Almost standards"
+#, kde-format
 msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Almost standards"
 msgstr "Standartlara yakın"
 
 #: khtml_part.cpp:4025
-#, fuzzy, kde-format
-#| msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
-#| msgid "Strict"
+#, kde-format
 msgctxt "HTML rendering mode (see https://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Strict"
-msgstr "Kısıtla"
+msgstr "Katı"
 
 #: khtml_part.cpp:4094
 #, kde-format
 msgid "Save Background Image As"
-msgstr "Arkaplan Resmini Farklı Kaydet"
+msgstr "Arka Plan Görselini Farklı Kaydet"
 
 #: khtml_part.cpp:4187
 #, kde-format
@@ -1296,9 +1185,9 @@ msgid ""
 "Are you sure you wish to continue?"
 msgstr ""
 "Uyarı - Bu güvenli bir form, ancak size ait olan veriyi şifrelenmemiş olarak "
-"geriye göndermek istiyor. \n"
-"Başkaları bu bilgiyi yakalayabilir ve bilgileri görüntüleyebilir. \n"
-"Bu işleme devam etmek istiyor musunuz?"
+"geriye göndermek istiyor.\n"
+"Başkaları bu bilgiyi yakalayabilir ve bilgileri görüntüleyebilir.\n"
+"Bu işlemi sürdürmek istiyor musunuz?"
 
 #: khtml_part.cpp:4904 khtml_part.cpp:4914 khtml_part.cpp:4939
 #, kde-format
@@ -1318,7 +1207,7 @@ msgid ""
 "Are you sure you wish to continue?"
 msgstr ""
 "Uyarı: Bilgiler ağ üzerinden şifrelenmemiş bir şekilde gidecektir.\n"
-"Devam etmek istiyor musunuz?"
+"Sürdürmek istiyor musunuz?"
 
 #: khtml_part.cpp:4937
 #, kde-format
@@ -1327,7 +1216,7 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 "Bu site e-posta üzerinden bir form göndermeye çalışıyor.\n"
-"Devam etmek istiyor musunuz?"
+"Sürdürmek istiyor musunuz?"
 
 #: khtml_part.cpp:4940
 #, kde-format
@@ -1355,7 +1244,7 @@ msgstr ""
 #: khtml_part.cpp:6111
 #, kde-format
 msgid "(%1/s)"
-msgstr "(%1/s)"
+msgstr "(%1/sn)"
 
 #: khtml_part.cpp:7039
 #, kde-format
@@ -1369,11 +1258,16 @@ msgstr ""
 "<qt>Güvenilmeyen bir sayfa olan<br /><b>%1</b><br /> sayfasına erişim "
 "engellendi.</qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "Güvenlik Uyarısı"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr ""
-"'%1' isimli cüzdan açık ve form verileri ile parolaları için kullanılıyor."
+"'%1' adlı cüzdan açık ve form verileri ile parolaları için kullanılıyor."
 
 #: khtml_part.cpp:7476
 #, kde-format
@@ -1445,7 +1339,7 @@ msgstr ""
 "<qt><p><strong>'Resimleri Yazdır'</strong></p><p>Eğer bu onay kutucuğu "
 "etkinleştirilmişse, HTML dosya içindeki resimler de yazdırılacaktır. "
 "Yazdırma işlemi biraz uzayacak ve daha fazla mürekkep veya toner "
-"tüketilecektir.</p><p>Onay kutucuğu etkisizleştirilmişse, Sadece HTML "
+"tüketilecektir.</p><p>Onay kutucuğu etkisizleştirilmişse, Yalnızca HTML "
 "dosyadaki metinler yazdırılacak, içindeki resimler yazdırılmayacaktır. Daha "
 "hızlı yazdırma ve daha az mürekkep veya toner tüketimi sağlar.</p> </qt>"
 
@@ -1494,7 +1388,7 @@ msgstr "HTML Ayarları"
 #: khtml_printsettings.cpp:72
 #, kde-format
 msgid "Printer friendly mode (black text, no background)"
-msgstr "Yazıcı dostu kipi (sadece siyah metin, arkaplan yok)"
+msgstr "Yazıcı dostu kip (yalnızca siyah metin, arka plan yok)"
 
 #: khtml_printsettings.cpp:75
 #, kde-format
@@ -1546,7 +1440,7 @@ msgstr "Resim - %1x%2 Benek"
 msgid "Done."
 msgstr "Bitti."
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr "Erişim Tuşları etkinleştirildi"
@@ -1564,15 +1458,7 @@ msgstr "JavaScript Hataları"
 
 #. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
 #: kjserrordlgbase.ui:18
-#, fuzzy, kde-format
-#| msgid ""
-#| "This dialog provides you with notification and details of scripting "
-#| "errors that occur on web pages.  In many cases it is due to an error in "
-#| "the web site as designed by its author.  In other cases it is the result "
-#| "of a programming error in Konqueror.  If you suspect the former, please "
-#| "contact the webmaster of the site in question.  Conversely if you suspect "
-#| "an error in Konqueror, please file a bug report at http://bugs.kde.org/.  "
-#| "A test case which illustrates the problem will be appreciated."
+#, kde-format
 msgid ""
 "This dialog provides you with notification and details of scripting errors "
 "that occur on web pages.  In many cases it is due to an error in the web "
@@ -1582,11 +1468,11 @@ msgid ""
 "in Konqueror, please file a bug report at https://bugs.kde.org/.  A test "
 "case which illustrates the problem will be appreciated."
 msgstr ""
-"Bilginize: Web sayfalarında görülen betik hataları, çok kere web sayfası "
+"Bilginize: Web sayfalarında görülen betik hataları, çoğu kez web sayfası "
 "tasarımcısının kullandığı çeşitli dillerdeki betiklerin tasarımına aittir. "
 "Onun dışındaki hatalar Konqueror içindeki programlama hatalarından "
-"kaynaklanır. Eğer bu ikinci olasılıktan şüpheleniyorsanız, lütfen bir hata "
-"raporu formu aracılığıyla http://bugs.kde.org/ adresini ziyaret etmekten "
+"kaynaklanır. Eğer bu ikinci olasılıktan şüpheleniyorsanız lütfen bir hata "
+"raporu formu aracılığıyla https://bugs.kde.org/ adresini ziyaret etmekten "
 "çekinmeyin. Hata başvurusundan önce verilen adresteki benzer hataları "
 "incelemek ve eğer aynı sorunun daha evvel bildirilmediğine karar "
 "verdiyseniz; Sorun'un nasıl oluştuğunun ve tekrarlanabilirliğinin tarif "
@@ -1700,14 +1586,14 @@ msgstr "Korece"
 #, kde-format
 msgctxt "@item Text character set"
 msgid "Thai"
-msgstr "Tay Dili"
+msgstr "Tayca"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
 msgstr "Oynat"
 
-#: rendering/media_controls.cpp:48
+#: rendering/media_controls.cpp:53
 #, kde-format
 msgid "Pause"
 msgstr "Duraklat"
@@ -1721,11 +1607,6 @@ msgstr "Yeni Web Kısayolu"
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "%1zaten %2 ögesine atanmış"
-
-#: rendering/render_form.cpp:922
-#, kde-format
-msgid "Error"
-msgstr "Hata"
 
 #: rendering/render_form.cpp:968
 #, kde-format
@@ -1755,12 +1636,12 @@ msgstr "Web Kısayolu Oluştur"
 #: ui/findbar/khtmlfindbar.cpp:49
 #, kde-format
 msgid "C&ase sensitive"
-msgstr "Bü&yük-küçük harfe duyarlı"
+msgstr "&BÜYÜK/küçük harf duyarlı"
 
 #: ui/findbar/khtmlfindbar.cpp:51
 #, kde-format
 msgid "&Whole words only"
-msgstr "&Sadece tam sözcükler"
+msgstr "&Yalnızca tam sözcükler"
 
 #: ui/findbar/khtmlfindbar.cpp:53
 #, kde-format
@@ -1780,7 +1661,7 @@ msgstr "&Düzenli ifade"
 #: ui/findbar/khtmlfindbar.cpp:59
 #, kde-format
 msgid "Find &links only"
-msgstr "Sadece &bağlantıları bul"
+msgstr "Yalnızca &bağlantıları bul"
 
 #: ui/findbar/khtmlfindbar.cpp:224
 #, kde-format
@@ -1848,7 +1729,7 @@ msgstr "Bu kez kaydet&me"
 #: xml/dom_docimpl.cpp:2376
 #, kde-format
 msgid "Basic Page Style"
-msgstr "Temel Sayfa Biçimi"
+msgstr "Temel Sayfa Biçemi"
 
 #: xml/xml_tokenizer.cpp:347
 #, kde-format
@@ -1858,7 +1739,7 @@ msgstr "belge doğru dosya biçimi içermiyor"
 #: xml/xml_tokenizer.cpp:352
 #, kde-format
 msgid "fatal parsing error: %1 in line %2, column %3"
-msgstr "önemli ayrıştırma hatası: %2 satırı %3 sütununda, %1"
+msgstr "onulmaz ayrıştırma hatası: %2. satır %3. sütunda %1"
 
 #: xml/xml_tokenizer.cpp:567
 #, kde-format
