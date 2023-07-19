@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
 "PO-Revision-Date: 2012-05-30 23:19+0200\n"
 "Last-Translator: Børre Gaup <boerre@skolelinux.no>\n"
 "Language-Team: Northern Sami <l10n-no@lister.huftis.org>\n"
@@ -182,7 +182,6 @@ msgstr "Referánsa"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "Árvu"
@@ -355,12 +354,12 @@ msgstr[0] "&Sádde fiilla"
 msgstr[1] "&Sádde fiillaid"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "Sádde"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
 msgstr "Máhcat"
@@ -557,111 +556,6 @@ msgstr "HTTP-oaivi"
 #, kde-format
 msgid "Property"
 msgstr "Iešvuohta"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "Válbmemin prográmmaš «%1» …"
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "Álggaheamen «%1» prográmmaža …"
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "Prográmmaš «%1» álggahuvvon"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "Prográmmaš «%1» bissehuvvon"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "Viežžamin prográmmaža"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "Error: vuojehahtti java ii gávdnon"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "Vuolláičállon dás (nannen: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "Duođaštus (nannen: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "Sihkkarvuođaváruhus"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "Suovatgo Java-prográmmaža mas lea sertifikáhtta:"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "addá lobi"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "&Ii"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "&Hilggo visot"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "&Juo"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "&Suova visot"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "KDE-lassemodula Java-prográmmažiid várás"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "Prográmmaš-páramehterat"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "Parámehter"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "Luohkká"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "Vuođđo-URL"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "Vuorkát"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1343,6 +1237,11 @@ msgstr ""
 "<qt>Luohttehis siidu mii vikkai beassat<br /><b>%1:i</b><br />ii beassan "
 "dasa.</qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "Sihkkarvuođaváruhus"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -1513,7 +1412,7 @@ msgstr "Govva – %1x%2 govvačuoggá"
 msgid "Done."
 msgstr "Geargan."
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr ""
@@ -1651,12 +1550,12 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "Thailándalaš"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
 msgstr "Čuojat"
 
-#: rendering/media_controls.cpp:48
+#: rendering/media_controls.cpp:53
 #, kde-format
 msgid "Pause"
 msgstr "Botke"
@@ -1670,11 +1569,6 @@ msgstr "Ođđa fierpmádatlávkestat"
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "%1 geavahuvvo juo %2:s"
-
-#: rendering/render_form.cpp:922
-#, kde-format
-msgid "Error"
-msgstr "Meattáhus"
 
 #: rendering/render_form.cpp:968
 #, kde-format

@@ -1,21 +1,9 @@
-# translation of kdelibs4.po to Chinese Simplified
-# Copyright (C) 2007 Free Software Foundation, Inc.
-#
-# Lie Ex <lilith.ex@gmail.com> 2007-2011.
-# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
-# Sarah Smith <sarahs@redhat.com>, 2002.
-# Xiong Jiang <jxiong@offtopic.org>, 2002,2003,2004.
-# Funda Wang <fundawang@linux.net.cn>, 2002,2003,2004.
-# Liang Qi <cavendish.qi@gmail.com>, 2007.
-# Feng Chao <chaofeng111@gmail.com>, 2010, 2012, 2014.
-# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2011, 2012.
-# Weng Xuetian <wengxt@gmail.com>, 2011, 2012, 2013, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
-"PO-Revision-Date: 2021-12-22 14:05\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
+"PO-Revision-Date: 2023-01-12 10:30\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -190,7 +178,6 @@ msgstr "引用"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "值"
@@ -239,7 +226,7 @@ msgid ""
 "Do you want to allow the form to be submitted?"
 msgstr ""
 "该站点试图用 JavaScript 提交一个将打开新浏览器窗口的表单。\n"
-"您允许这样吗？"
+"您想要允许发送该表单吗？"
 
 #: ecma/kjs_html.cpp:2238
 #, kde-format
@@ -249,7 +236,7 @@ msgid ""
 "submitted?</qt>"
 msgstr ""
 "<qt>该站点试图用 JavaScript 提交一个即将在新窗口中打开<p>%1</p>的表单。<br />"
-"您允许这样吗？</qt>"
+"您想要允许发送该表单吗？</qt>"
 
 #: ecma/kjs_html.cpp:2240 ecma/kjs_window.cpp:1952
 #, kde-format
@@ -359,12 +346,12 @@ msgid_plural "&Send Files"
 msgstr[0] "发送文件(&S)"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "提交"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
 msgstr "重置"
@@ -469,7 +456,7 @@ msgstr "请稍候，正在生成加密密钥..."
 #: html/ksslkeygen.cpp:148
 #, kde-format
 msgid "Do you wish to store the passphrase in your wallet file?"
-msgstr "您是否想要在钱包文件中存储密码句？"
+msgstr "您想要在密码库文件中存储密码吗？"
 
 #: html/ksslkeygen.cpp:148
 #, kde-format
@@ -560,111 +547,6 @@ msgstr "HTTP 头"
 #, kde-format
 msgid "Property"
 msgstr "属性"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "正在初始化 Applet “%1”..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "正在启动 Applet “%1”..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "Applet “%1”已启动"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "Applet “%1”已停止"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "正在加载小程序"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "错误：没有找到 java 执行文件"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "签名者(有效：%1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "证书(有效：%1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "安全警报"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "您用下列证书授予 Java Applet："
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "下列权限"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "否(&N)"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "全部拒绝(&R)"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "是(&Y)"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "全部同意(&G)"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "KDE Java Applet 插件"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "Applet 参数"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "参数"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "类"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "基础 URL"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "存档"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1336,15 +1218,20 @@ msgstr "安全警告"
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr "<qt>无法访问不信任的页面<br /><b>%1</b><br />。</qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "安全警报"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
-msgstr "钱包“%1”已打开，正用于填充表单数据和密码。"
+msgstr "密码库“%1”已被打开，它正被用于填充表单数据和密码。"
 
 #: khtml_part.cpp:7476
 #, kde-format
 msgid "&Close Wallet"
-msgstr "关闭钱包(&C)"
+msgstr "关闭密码库(&C)"
 
 #: khtml_part.cpp:7479
 #, kde-format
@@ -1502,7 +1389,7 @@ msgstr "图像 - %1x%2 像素"
 msgid "Done."
 msgstr "完成。"
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr "激活了访问键"
@@ -1645,12 +1532,12 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "泰国语"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
 msgstr "播放"
 
-#: rendering/media_controls.cpp:48
+#: rendering/media_controls.cpp:53
 #, kde-format
 msgid "Pause"
 msgstr "暂停"
@@ -1664,11 +1551,6 @@ msgstr "新建 Web 快捷方式"
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "%1 已经被分配给 %2"
-
-#: rendering/render_form.cpp:922
-#, kde-format
-msgid "Error"
-msgstr "错误"
 
 #: rendering/render_form.cpp:968
 #, kde-format

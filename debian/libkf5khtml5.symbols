@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.78.0 armel armhf i386 mipsel powerpc
+# SymbolsHelper-Confirmed: 5.94.0 amd64 i386
 libKF5KHtml.so.5 libkf5khtml5 #MINVER#
 * Build-Depends-Package: libkf5khtml-dev
  _ZN10KHTMLImage11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.35.0
@@ -1846,6 +1846,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  (optional=external|arch=!armel !armhf)_ZN3KJS6JSCell4markEv@Base 4.96.0
  _ZN3KJS7JSValue4typeEPKS0_@Base 5.89.0
  _ZN3KJS7JSValue7toInt32EPKS0_PNS_9ExecStateE@Base 5.89.0
+ _ZN3KJS7JSValue8isObjectEPKS0_@Base 5.94.0
  _ZN3KJS7JSValue8toStringEPKS0_PNS_9ExecStateE@Base 5.89.0
  _ZN3KJS7JSValue9toBooleanEPKS0_PNS_9ExecStateE@Base 5.89.0
  (optional=gccinternal|arch=!armel !armhf)_ZN3KJS7JSValueD0Ev@Base 5.24.0
@@ -2261,7 +2262,7 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst|arch=i386)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 5.94.0
  (optional=external)_ZNK12QPaintDevice7devTypeEv@Base 5.0.0
  _ZNK13KHTMLSettings10lookupFontEi@Base 4.96.0
  _ZNK13KHTMLSettings10vLinkColorEv@Base 4.96.0
@@ -2893,7 +2894,6 @@ libKF5KHtml.so.5 libkf5khtml5 #MINVER#
  _ZNK5khtml10ChildFrame10metaObjectEv@Base 4.96.0
  _ZNK5khtml10ChildFrame10typeStringEv@Base 4.96.0
  _ZNK5khtml10MouseEvent6offsetEv@Base 4.96.0
- (arch-bits=64)_ZNK7QWidget4sizeEv@Base 5.80.0
  _ZNK9KHTMLPart10activeNodeEv@Base 4.96.0
  _ZNK9KHTMLPart10dndEnabledEv@Base 4.96.0
  _ZNK9KHTMLPart10frameNamesEv@Base 4.96.0

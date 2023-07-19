@@ -1,6 +1,6 @@
 include(ECMMarkAsTest)
 
-if(NOT WIN32 AND NOT APPLE AND X11_FOUND)
+if(NOT WIN32 AND NOT APPLE AND HAVE_X11)
   find_package(Qt5X11Extras "${REQUIRED_QT_VERSION}" CONFIG REQUIRED)
   set_package_properties(Qt5X11Extras PROPERTIES PURPOSE "Required for tests")
 endif()
@@ -16,7 +16,6 @@ include_directories(
   ${KHTML_SOURCE_DIR}/ecma
   ${KHTML_SOURCE_DIR}/imload
   ${KHTML_SOURCE_DIR}/imload/decoders
-  ${KHTML_SOURCE_DIR}/java
   ${KHTML_SOURCE_DIR}/svg
   ${KHTML_SOURCE_DIR}/svg/graphics
   ${KHTML_SOURCE_DIR}/platform/graphics
@@ -28,11 +27,8 @@ include_directories(
 
 include_directories(
   ${KHTML_BINARY_DIR}/..
-  ${KHTML_BINARY_DIR}/java
   ${KHTML_BINARY_DIR}/css
 )
-
-add_subdirectory(java)
 
 # msvc linker doesn't like "#define protected public"
 if(NOT MSVC)
@@ -83,7 +79,7 @@ endif()
 
 # Note that testregression can't be compiled by default, it needs private Qt headers.
 # See also BUILDING-TESTREGRESSION
-if (KHTML_BUILD_TESTREGRESSION)
+if (KHTML_BUILD_TESTREGRESSION AND HAVE_X11)
 
     set(testregression_SRCS
         test_regression.cpp

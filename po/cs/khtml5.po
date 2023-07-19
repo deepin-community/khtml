@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
 "PO-Revision-Date: 2019-11-07 11:55+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -184,7 +184,6 @@ msgstr "Odkaz"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "Hodnota"
@@ -361,12 +360,12 @@ msgstr[1] "Ode&slat soubory"
 msgstr[2] "Ode&slat soubory"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "Odeslat"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
 msgstr "Obnovit"
@@ -563,111 +562,6 @@ msgstr "HTTP hlavičky"
 #, kde-format
 msgid "Property"
 msgstr "Vlastnost"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "Inicializace appletu \"%1\"..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "Spouštím aplet \"%1\"..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "Applet \"%1\" spuštěn"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "Applet \"%1\" zastaven"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "Načítání apletu"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "Chyba: program 'java' nenalezen"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "Podepsal (ověření: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "Certifikát (ověření: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "Bezpečnostní varování"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "Přejete si přiřadit Java appletu s certifikáty:"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "toto oprávnění"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "&Ne"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "Za&mítnout vše"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "&Ano"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "&Povolit vše"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "Modul KDE pro Java applety"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "Parametry appletu"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "Parametr"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "Třída"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "Základní URL"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "Archivy"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1350,6 +1244,11 @@ msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>Přístup k nedůvěryhodné stránce <br /><b>%1</b><br /> odmítnut.</qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "Bezpečnostní varování"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -1524,7 +1423,7 @@ msgstr "Obrázek - %1x%2 pixelů"
 msgid "Done."
 msgstr "Hotovo."
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr "Přístupové klávesy aktivovány"
@@ -1668,12 +1567,12 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "Thajské"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
 msgstr "Přehrát"
 
-#: rendering/media_controls.cpp:48
+#: rendering/media_controls.cpp:53
 #, kde-format
 msgid "Pause"
 msgstr "Pozastavit"
@@ -1687,11 +1586,6 @@ msgstr "Nová webová zkratka"
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "%1 je již přiřazeno pro %2"
-
-#: rendering/render_form.cpp:922
-#, kde-format
-msgid "Error"
-msgstr "Chyba"
 
 #: rendering/render_form.cpp:968
 #, kde-format

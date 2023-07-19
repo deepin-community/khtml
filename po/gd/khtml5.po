@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
 "PO-Revision-Date: 2016-04-29 19:43+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -182,7 +182,6 @@ msgstr "Iomradh"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "Luach"
@@ -364,12 +363,12 @@ msgstr[2] "Cuir na &faidhlichean"
 msgstr[3] "Cuir na &faidhlichean"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "Cuir a-null"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
 msgstr "Ath-shuidhich"
@@ -569,111 +568,6 @@ msgstr "Bannan-cinn HTTP"
 #, kde-format
 msgid "Property"
 msgstr "Roghainn"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "A' tòiseachadh na h-aplaid \"%1\"..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "A' tòiseachadh na h-aplaid \"%1\"..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "Chaidh an aplaid \"%1\" a thòiseachadh"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "Chaidh stad a chur air an aplaid \"%1\""
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "A' luchdadh aplaid"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "Mearachd: cha deach faidhle so-ghnìomhaichte java a lorg"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "Air a shoidhneadh le (dearbhadh: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "Teisteanas (dearbhadh: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "Caismeachd tèarainteachd"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "'S ann dhan aplacaid Java aig a bheil an teisteanas/na teisteanasan:"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "a tha thu a' toirt an cead a leanas"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "&Chan eil"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "&Diùlt na h-uile"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "&Tha"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "Ceadaich na h-&uile"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "Plugan aplaid java KDE"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "Paramadairean na h-aplaid"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "Paramadair"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "Clas"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "Bun-URL"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "Tasg-lannan"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1375,6 +1269,11 @@ msgstr ""
 "<qt>Chaidh inntrigeadh le duilleag neo-earbsach air<br /><b>%1</b><br /> a "
 "dhiùltadh.</qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "Caismeachd tèarainteachd"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -1560,7 +1459,7 @@ msgstr "Dealbh - %1x%2 piogsail"
 msgid "Done."
 msgstr "Dèanta."
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr "Tha na h-iuchraichean inntrigidh gnìomhach"
@@ -1714,12 +1613,12 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "Tàidh"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
 msgstr "Cluich"
 
-#: rendering/media_controls.cpp:48
+#: rendering/media_controls.cpp:53
 #, kde-format
 msgid "Pause"
 msgstr "Cuir 'na stad"
@@ -1733,11 +1632,6 @@ msgstr "Ath-ghoirid-lìn ùr"
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "chaidh %1 iomruineadh dha %2 mar-thà"
-
-#: rendering/render_form.cpp:922
-#, kde-format
-msgid "Error"
-msgstr "Mearachd"
 
 #: rendering/render_form.cpp:968
 #, kde-format
@@ -1876,3 +1770,73 @@ msgstr "mearachd parsaidh mharbhtach: %1 air loidhne %2, colbh %3"
 #, kde-format
 msgid "XML parsing error"
 msgstr "Mearachd le parsadh an XML"
+
+#~ msgid "Error"
+#~ msgstr "Mearachd"
+
+#~ msgid "Initializing Applet \"%1\"..."
+#~ msgstr "A' tòiseachadh na h-aplaid \"%1\"..."
+
+#~ msgid "Starting Applet \"%1\"..."
+#~ msgstr "A' tòiseachadh na h-aplaid \"%1\"..."
+
+#~ msgid "Applet \"%1\" started"
+#~ msgstr "Chaidh an aplaid \"%1\" a thòiseachadh"
+
+#~ msgid "Applet \"%1\" stopped"
+#~ msgstr "Chaidh stad a chur air an aplaid \"%1\""
+
+#~ msgid "Loading Applet"
+#~ msgstr "A' luchdadh aplaid"
+
+#~ msgid "Error: java executable not found"
+#~ msgstr "Mearachd: cha deach faidhle so-ghnìomhaichte java a lorg"
+
+#~ msgid "Signed by (validation: %1)"
+#~ msgstr "Air a shoidhneadh le (dearbhadh: %1)"
+
+#~ msgid "Certificate (validation: %1)"
+#~ msgstr "Teisteanas (dearbhadh: %1)"
+
+#~ msgid "Do you grant Java applet with certificate(s):"
+#~ msgstr ""
+#~ "'S ann dhan aplacaid Java aig a bheil an teisteanas/na teisteanasan:"
+
+#~ msgid "the following permission"
+#~ msgstr "a tha thu a' toirt an cead a leanas"
+
+#~ msgid "&No"
+#~ msgstr "&Chan eil"
+
+#~ msgid "&Reject All"
+#~ msgstr "&Diùlt na h-uile"
+
+#~ msgid "&Yes"
+#~ msgstr "&Tha"
+
+#~ msgid "&Grant All"
+#~ msgstr "Ceadaich na h-&uile"
+
+#~ msgid "KDE Java Applet Plugin"
+#~ msgstr "Plugan aplaid java KDE"
+
+#~ msgid "Applet Parameters"
+#~ msgstr "Paramadairean na h-aplaid"
+
+#~ msgid "Parameter"
+#~ msgstr "Paramadair"
+
+#~ msgid "Class"
+#~ msgstr "Clas"
+
+#~ msgid "Base URL"
+#~ msgstr "Bun-URL"
+
+#~ msgid "Archives"
+#~ msgstr "Tasg-lannan"
+
+#~ msgid "Overwrite"
+#~ msgstr "Sgrìobh thairis air"
+
+#~ msgid "&Close"
+#~ msgstr "&Dùin"

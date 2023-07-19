@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khtml5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
+"POT-Creation-Date: 2022-08-06 00:42+0000\n"
 "PO-Revision-Date: 2019-01-10 09:23+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -186,7 +186,6 @@ msgstr "Посилання"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
-#: java/kjavaappletviewer.cpp:146
 #, kde-format
 msgid "Value"
 msgstr "Значення"
@@ -363,12 +362,12 @@ msgstr[2] "&Надіслати файли"
 msgstr[3] "&Надіслати файл"
 
 #: html/html_formimpl.cpp:1687 html/html_formimpl.cpp:1908 khtml_part.cpp:4962
-#: khtmlview.cpp:2845 khtmlview.cpp:2889
+#: khtmlview.cpp:2848 khtmlview.cpp:2892
 #, kde-format
 msgid "Submit"
 msgstr "Надіслати"
 
-#: html/html_formimpl.cpp:1900 khtmlview.cpp:2860 khtmlview.cpp:2895
+#: html/html_formimpl.cpp:1900 khtmlview.cpp:2863 khtmlview.cpp:2898
 #, kde-format
 msgid "Reset"
 msgstr "Скинути"
@@ -566,111 +565,6 @@ msgstr "HTTP-заголовки"
 #, kde-format
 msgid "Property"
 msgstr "Властивість"
-
-#: java/kjavaapplet.cpp:227
-#, kde-format
-msgid "Initializing Applet \"%1\"..."
-msgstr "Ініціалізація аплету «%1»..."
-
-#: java/kjavaapplet.cpp:233
-#, kde-format
-msgid "Starting Applet \"%1\"..."
-msgstr "Запуск аплету «%1»..."
-
-#: java/kjavaapplet.cpp:240
-#, kde-format
-msgid "Applet \"%1\" started"
-msgstr "Аплет «%1» запущено"
-
-#: java/kjavaapplet.cpp:246
-#, kde-format
-msgid "Applet \"%1\" stopped"
-msgstr "Аплет «%1» зупинено"
-
-#: java/kjavaappletserver.cpp:143
-#, kde-format
-msgid "Loading Applet"
-msgstr "Завантаження аплету"
-
-#: java/kjavaappletserver.cpp:146
-#, kde-format
-msgid "Error: java executable not found"
-msgstr "Помилка: програму java не знайдено"
-
-#: java/kjavaappletserver.cpp:673
-#, kde-format
-msgid "Signed by (validation: %1)"
-msgstr "Підписано (перевірка: %1)"
-
-#: java/kjavaappletserver.cpp:675
-#, kde-format
-msgid "Certificate (validation: %1)"
-msgstr "Сертифікат (перевірка: %1)"
-
-#: java/kjavaappletserver.cpp:811 khtml_part.cpp:7047
-#, kde-format
-msgid "Security Alert"
-msgstr "Попередження безпеки"
-
-#: java/kjavaappletserver.cpp:816
-#, kde-format
-msgid "Do you grant Java applet with certificate(s):"
-msgstr "Чи згодні ви надати дозвіл для аплету з сертифікатами:"
-
-#: java/kjavaappletserver.cpp:818
-#, kde-format
-msgid "the following permission"
-msgstr "наступний дозвіл"
-
-#: java/kjavaappletserver.cpp:827
-#, kde-format
-msgid "&No"
-msgstr "&Ні"
-
-#: java/kjavaappletserver.cpp:832
-#, kde-format
-msgid "&Reject All"
-msgstr "Ві&дмовляти всім"
-
-#: java/kjavaappletserver.cpp:836
-#, kde-format
-msgid "&Yes"
-msgstr "&Так"
-
-#: java/kjavaappletserver.cpp:840
-#, kde-format
-msgid "&Grant All"
-msgstr "На&дати всім"
-
-#: java/kjavaappletviewer.cpp:55
-#, kde-format
-msgid "KDE Java Applet Plugin"
-msgstr "Додаток до KDE для Java аплетів"
-
-#: java/kjavaappletviewer.cpp:137
-#, kde-format
-msgid "Applet Parameters"
-msgstr "Параметри аплету"
-
-#: java/kjavaappletviewer.cpp:145
-#, kde-format
-msgid "Parameter"
-msgstr "Параметр"
-
-#: java/kjavaappletviewer.cpp:149
-#, kde-format
-msgid "Class"
-msgstr "Клас"
-
-#: java/kjavaappletviewer.cpp:155
-#, kde-format
-msgid "Base URL"
-msgstr "Основна адреса URL"
-
-#: java/kjavaappletviewer.cpp:161
-#, kde-format
-msgid "Archives"
-msgstr "Архіви"
 
 #. i18n: ectx: Menu (edit)
 #: khtml.rc:4 khtml_browser.rc:11
@@ -1358,6 +1252,11 @@ msgstr ""
 "<qt>Доступ для сторінки, що немає довіри, до <br /><b>%1</b><br /> "
 "заборонено.</qt>"
 
+#: khtml_part.cpp:7047
+#, kde-format
+msgid "Security Alert"
+msgstr "Попередження безпеки"
+
 #: khtml_part.cpp:7417
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
@@ -1536,7 +1435,7 @@ msgstr "Зображення — %1⨯%2 пікселів"
 msgid "Done."
 msgstr "Завершено."
 
-#: khtmlview.cpp:1900
+#: khtmlview.cpp:1903
 #, kde-format
 msgid "Access Keys activated"
 msgstr "Клавіші доступу активовано"
@@ -1681,12 +1580,12 @@ msgctxt "@item Text character set"
 msgid "Thai"
 msgstr "Таїландське"
 
-#: rendering/media_controls.cpp:45
+#: rendering/media_controls.cpp:50
 #, kde-format
 msgid "Play"
 msgstr "Відтворити"
 
-#: rendering/media_controls.cpp:48
+#: rendering/media_controls.cpp:53
 #, kde-format
 msgid "Pause"
 msgstr "Пауза"
@@ -1700,11 +1599,6 @@ msgstr "Нове вебскорочення"
 #, kde-format
 msgid "%1 is already assigned to %2"
 msgstr "%1 вже прив’язано до %2"
-
-#: rendering/render_form.cpp:922
-#, kde-format
-msgid "Error"
-msgstr "Помилка"
 
 #: rendering/render_form.cpp:968
 #, kde-format
@@ -1843,3 +1737,72 @@ msgstr "фатальна помилка аналізу: %1 в рядку %2, с�
 #, kde-format
 msgid "XML parsing error"
 msgstr "Помилка аналізу XML"
+
+#~ msgid "Error"
+#~ msgstr "Помилка"
+
+#~ msgid "Initializing Applet \"%1\"..."
+#~ msgstr "Ініціалізація аплету «%1»..."
+
+#~ msgid "Starting Applet \"%1\"..."
+#~ msgstr "Запуск аплету «%1»..."
+
+#~ msgid "Applet \"%1\" started"
+#~ msgstr "Аплет «%1» запущено"
+
+#~ msgid "Applet \"%1\" stopped"
+#~ msgstr "Аплет «%1» зупинено"
+
+#~ msgid "Loading Applet"
+#~ msgstr "Завантаження аплету"
+
+#~ msgid "Error: java executable not found"
+#~ msgstr "Помилка: програму java не знайдено"
+
+#~ msgid "Signed by (validation: %1)"
+#~ msgstr "Підписано (перевірка: %1)"
+
+#~ msgid "Certificate (validation: %1)"
+#~ msgstr "Сертифікат (перевірка: %1)"
+
+#~ msgid "Do you grant Java applet with certificate(s):"
+#~ msgstr "Чи згодні ви надати дозвіл для аплету з сертифікатами:"
+
+#~ msgid "the following permission"
+#~ msgstr "наступний дозвіл"
+
+#~ msgid "&No"
+#~ msgstr "&Ні"
+
+#~ msgid "&Reject All"
+#~ msgstr "Ві&дмовляти всім"
+
+#~ msgid "&Yes"
+#~ msgstr "&Так"
+
+#~ msgid "&Grant All"
+#~ msgstr "На&дати всім"
+
+#~ msgid "KDE Java Applet Plugin"
+#~ msgstr "Додаток до KDE для Java аплетів"
+
+#~ msgid "Applet Parameters"
+#~ msgstr "Параметри аплету"
+
+#~ msgid "Parameter"
+#~ msgstr "Параметр"
+
+#~ msgid "Class"
+#~ msgstr "Клас"
+
+#~ msgid "Base URL"
+#~ msgstr "Основна адреса URL"
+
+#~ msgid "Archives"
+#~ msgstr "Архіви"
+
+#~ msgid "Overwrite"
+#~ msgstr "Перезаписати"
+
+#~ msgid "&Close"
+#~ msgstr "&Закрити"
