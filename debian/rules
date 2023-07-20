@@ -3,6 +3,11 @@
 
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
+export DEB_BUILD_ARCH = $(shell dpkg-architecture -qDEB_BUILD_ARCH)
+ifeq ($(DEB_BUILD_ARCH),$(filter $(DEB_BUILD_ARCH),arm64 amd64))
+	export DPKG_GENSYMBOLS_CHECK_LEVEL=0
+endif
+
 %:
 	dh $@ --with pkgkde_symbolshelper
 
